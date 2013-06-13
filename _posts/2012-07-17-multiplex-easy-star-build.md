@@ -48,14 +48,34 @@ The Gorilla glue requires a wet surface, several hours to dry and the expansion 
 </p>
 
 The motor and servos are wrapped in electrical tape so that they can be salvaged without much glue remaining on the surface.
+
+<p align="center">
+  <img src="/images/2012-07/IMG_0850-e1342407982883-300x300.jpg"/>
+</p>
+
 The parts in the EasyStar kit I received are very well made with only one piece warped by shipping. The bent empennage does not matter much because we'll be replacing the rudder anyway.
+
+<p align="center">
+  <img src="/images/2012-07/IMG_08651-e1342486003125-300x300.jpg" width="50%"/>
+</p>
+
 This is what the tail fin looks like with the rudder removed, and after correction with hot air. A hair dryer (or a very low setting heat gun) will work. Ease off on the heat before you see the bubbling in this picture.
 
-Use the same technique on the wings to reduce the effective dihedral angle from the upward cant of the [polyhedral](http://en.wikipedia.org/wiki/Dihedral_(aircraft)\#Polyhedral) wings.
+<p align="center">
+  <img src="/images/2012-07/IMG_0866-e1342406921799-300x300.jpg" width="50%"/>
+</p>
+
+Use the same technique on the wings to reduce the effective dihedral angle from the upward cant of the  <a href="http://en.wikipedia.org/wiki/Dihedral_(aircraft)#Polyhedral">polyhedral</a> wings.
 
 This step is optional, but I plan on adding ailerons at a later time, and the dihedral will tend to roll the plane towards level, minimizing the control effect of the ailerons.
 
 One of the very common Easy Star modification is to create a new, larger rudder.
+
+<p align="center">
+  <img src="/images/2012-07/IMG_0854-e1342407827410-300x300.jpg" width="40%"/>
+  <img src="/images/2012-07/IMG_0883-e1342404502867-293x300.jpg" width="40%"/>
+</p>
+
 
 You can use the existing piece as a template, and even reuse the control horns that come with the kit.
 
@@ -66,26 +86,54 @@ We're also going to strengthen the frame and control surfaces with carbon fiber:
 * 1\.4mm x 4\.5mm strip in the wings
 * 5\.3mm tube in the fuselage
 
+
 Cut the groove with an X-acto knife and use clamps to hold the CF while the CA glue cures.
 Use similar steps for the other CF pieces. The fuselage needs large amounts of foam removed to accommodate the CF tube, and on old soldering iron works well for this.
 
+<p align="center">
+  <img src="/images/2012-07/IMG_0860-e1342407516201-300x300.jpg" width="40%"/>
+  <img src="/images/2012-07/IMG_0882-e1342406643977-300x300.jpg" width="40%"/>
+</p>
+
 Inlay the CF tube on the underside of the elevator surface.
+
+<p align="center">
+  <img src="/images/2012-07/IMG_0885-e1342409434587-300x300.jpg" width="40%"/>
+</p>
 
 Start the CF strip on the wings at the join used to cover the main spar.
 
+<p align="center">
+  <img src="/images/2012-07/IMG_0863-e1342407291103-300x300.jpg" width="40%"/>
+</p>
+
+
 After inserting the wing spar that comes with the kit, cut out a section need to join to inlay a washer, which prevents the spar from warping the wing joint over time.
 You can see the edge of the CF tube on the tail fin here (after painting), as well as    the cut-outs for the hinges to the new rudder.
+
+<p align="center">
+  <img src="/images/2012-07/IMG_0901-e1342405631304-300x300.jpg" width="40%"/>
+</p>
 
 The wiring is routed through channels carved with a soldering iron, and 12g wire is used to connect the brushless motor the the ESC. The Orange Rx has since been replaced with a [FrSky TFR6](http://www.alofthobbies.com/frsky-tfr6-6-channel-fasst-compatible-receiver.html), and the blue EC3 connectors with [XT60](http://www.sparkfun.com/products/10474) connectors. The ESC is snug between the CF spar and the fuselage. If overheating is a issue, I will need to cut an access hatch later.
 Wiring a brushless motor is easier than it would seem for three-wire design. Just connect the wires and if the motor spins the wrong way, switch any two wires. Take a look at the [wiring diagram](http://home.solcon.nl/gjkool/brushless5/W-schms-3p-E.JPG) to see why this works. On disadvantage of placing the wiring inside the fuselage &mdash; in addition to the lack of heat dissipation &mdash; is the inability to disconnect one of the wires, which would allow the motor to spin at reduced speed for testing purposes.
 The receiver (and battery) should be secured with velcro.
 
+<p align="center">
+  <img src="/images/2012-07/IMG_0876-e1342406814966.jpg" width="60%"/>
+</p>
+
 Since I plan on using the plane as test bed, I made a replacement to the canopy our of basswood. You can use the existing canopy on the plane as a template for the angles.
+
+<p align="center">
+  <img src="/images/2012-07/IMG_0899-e1342406214253-300x300.jpg" width="30%"/>
+  <img src="/images/2012-07/IMG_0903-e1342405495126-300x300.jpg" width="30%"/>
+  <img src="/images/2012-07/IMG_0904-e1342405428290-300x300.jpg" width="30%"/>
+</p>
 
 The holes will fit the standoffs for an Arduino Uno v3 and the slots are used to secure the canopy cover.
 The screws are drilled into the wood blocks, which are glued to the fuselage; a quarter-turn on the screws keeps the canopy on tight.
  
-
 ## Lessons Learned ##
 
 * Carbon fiber splinters are itchy.
