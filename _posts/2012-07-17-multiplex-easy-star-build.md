@@ -4,16 +4,24 @@ title: Multiplex Easy Star Build
 ---
 
 # {{ page.title }}
+---------------------------------------
+<p align="center">
+  <img src="/images/2012-07/IMG_0919.jpg" align="center" width="80%"/>
+</p>
 
-![End result](/images/2012-07/IMG_0919.jpg)
+---------------------------------------
 
 ## Materials: ##
 
+
 Where possible, I've listed an online retailer, but some of the generic items may require searching.
+
+<img src="/images/2012-07/IMG_0847.jpg" style="float:right" width="50%"/>
+
 * [Easy Star Electric Kit](http://www.amazon.com/gp/product/B000BMSF22/ref=oh_details_o00_s00_i00)
-* [Hitec HS-65HB Micro Karbo Gear Servo (1.8kg/11g)](http://www.hobbyking.com/hobbyking/store/__9817__Hitec_HS_65HB_Micro_Karbo_Gear_Servo_1_8kg_11g_0_14sec.html) x2
-* [TURNIGY Plush 30amp Speed Controller (25g)](http://www.hobbyking.com/hobbyking/store/__2164__TURNIGY_Plush_30amp_Speed_Controller.html)
-* [S2838-2800 Brushless Inrunner (2800kv)](http://www.hobbyking.com/hobbyking/store/__2164__TURNIGY_Plush_30amp_Speed_Controller.html)
+* [Hitec HS-65HB Micro Karbo Gear Servo](http://www.hobbyking.com/hobbyking/store/__9817__Hitec_HS_65HB_Micro_Karbo_Gear_Servo_1_8kg_11g_0_14sec.html) (1.8kg/11g) x2
+* [TURNIGY Plush 30amp Speed Controller](http://www.hobbyking.com/hobbyking/store/__2164__TURNIGY_Plush_30amp_Speed_Controller.html)  (25g)
+* [S2838-2800 Brushless Inrunner](http://www.hobbyking.com/hobbyking/store/__2164__TURNIGY_Plush_30amp_Speed_Controller.html) (2800kv)
 * [Industrial Strength Velcro](http://www.amazon.com/Velcro-Industrial-Strength-Sticky-Back-Fasteners/dp/B00006RSP1)
 * Boyd Red Eamel Spray Paint
 * Testors Gloss Gray (1238) Enamel Spray Paint
@@ -27,12 +35,17 @@ Where possible, I've listed an online retailer, but some of the generic items ma
 * [Nylon hinges](http://www.hobbyking.com/hobbyking/store/__8282__Nylon_Pinned_Hinge_16x28_5_10pcs_.html)
 * 5/16" zinc washer
 
+
 Prior to the build, I tested three types of glue:
-* [Fast Drying Gorilla Glue](http://www.farmandfleet.com/products/593935-dries_white_2x_faster_gorilla_glue.htm#.T61kMFIXPWY)
+* [Fast Drying Gorilla Glue] (http://www.farmandfleet.com/products/593935-dries_white_2x_faster_gorilla_glue.htm#.T61kMFIXPWY)
 * [Zap-A-Gap Medium CA+](http://www.amazon.com/2oz-Zap-Green-Zap-Gap/dp/B000O5GXY8)
 * [Pro Foam Safe CA Glue](http://www.amazon.com/gp/product/B001BHK5EM/ref=oh_details_o00_s01_i00)
 
 The Gorilla glue requires a wet surface, several hours to dry and the expansion makes it unsuitable (and messy) for precision work. Zap-A-Gap does not produce much heat, but I decided to go with the Great Plains to prevent the issue of melting elapor foam.
+
+<p align="center">
+  <img src="/images/2012-07/IMG_0843-e1342408207471-300x300.jpg"/>
+</p>
 
 The motor and servos are wrapped in electrical tape so that they can be salvaged without much glue remaining on the surface.
 The parts in the EasyStar kit I received are very well made with only one piece warped by shipping. The bent empennage does not matter much because we'll be replacing the rudder anyway.
