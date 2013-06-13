@@ -27,7 +27,7 @@ And from the other side, where you can see the SDA, SCL, VCC and ground wires co
   <img src="/images/2012-07/photo-4-e1343336322226-300x300.jpg" align="center" width="40%"/>
 </p>
 
-After connecting to a 4XAA (6VDC) battery source, we can mount this to the Easy Star as seen in the [build tutorial](../2012/07/17/multiplex-easy-star-build.html).
+After connecting to a 4XAA (6VDC) battery source, we can mount this to the Easy Star as seen in the [build tutorial](../../../2012/07/17/multiplex-easy-star-build.html).
 
 Once you have your data, you need to convert your adjusted pressure readings into altitude. The bmp085 gives you Pascals; after converting to millibar (or hPa) one can use the equation
 
