@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Arduino Multimeter
+title: Arduino Barometric Altimeter
 ---
 
 # {{ page.title }}
 ---------------------------------------
 
-Using Sparkfun's BMP085 sensor board ([SEN-09694](https://www.sparkfun.com/products/9694)), I put together some quick Arduino code to measure temperature-adjusted barometric pressure, store the data on an SD card using Adafruit's data logger shield ([v1.0](https://www.adafruit.com/products/243)), and then calculate altitude. This is a pretty simple project; in fact, the most difficult issue was finding a suitable formula for calculating altitude from atmospheric pressure.
+Using Sparkfun's BMP085 sensor board ([SEN-09694](https://www.sparkfun.com/products/9694)), I put together some quick Arduino code to measure temperature-adjusted barometric pressure, store the data on an SD card using Adafruit's data logger shield ([v1.0](https://www.adafruit.com/products/243)), and then calculate altitude. This is a pretty simple project. In fact, the biggest challenge was getting a suitable formula for calculating altitude from atmospheric pressure.
 
 
 Testing the sensor was very simple, following the [tutorial](http://www.sparkfun.com/tutorials/253) and [schematic](http://www.sparkfun.com/tutorial/Barometric/Example1-sch.PNG) on Sparkfun's site.
