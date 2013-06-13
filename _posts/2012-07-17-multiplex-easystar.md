@@ -5,6 +5,8 @@ title: Multiplex Easy Star Build
 
 # {{ page.title }}
 
+![End result](/images/2012-07/IMG_0919.jpg)
+
 ## Materials: ##
 
 Where possible, I've listed an online retailer, but some of the generic items may require searching.
