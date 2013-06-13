@@ -29,7 +29,7 @@ And from the other side, where you can see the SDA, SCL, VCC and ground wires co
 
 After connecting to a 4XAA (6VDC) battery source, we can mount this to the Easy Star as seen in the [build tutorial](../2012/07/17/multiplex-easy-star-build.html).
 
-Once you have your data, you need to convert your adjusted pressure readings into altitude. The bmp085 gives you Pascals; after converting to millibar (or hPa) and using the equation
+Once you have your data, you need to convert your adjusted pressure readings into altitude. The bmp085 gives you Pascals; after converting to millibar (or hPa) one can use the equation
 
 <div>
 \[
@@ -38,8 +38,8 @@ h_{alt}=\left( 1 - \left( \dfrac {p_{sta}} {p_{sealevel}}\right) ^{0.190284}\rig
 </div>
 
 where:
-* psta = measured pressure in x1 (or hPa)
-* psealevel = millibar (or hPa) pressure at sea level; usually 1013.25, in this example, I use what I know is the pressure at sea level.
+* p<sub>sta</sub> = measured pressure in x1 (or hPa)
+* p<sub>sealevel</sub> = millibar (or hPa) pressure at sea level; usually 1013.25, in this example, I use what I know is the pressure at sea level.
 
 This is a more accurate version of the common heuristic that pressure reduces by 1 millibar per 30ft of elevation. After this crunching we get the graph below, showing that we reached 500m in just under 3 minutes, and you can see what this looks like from the [flight video](http://youtu.be/5M-c3BhNPWc).
 
