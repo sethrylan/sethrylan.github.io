@@ -38,8 +38,8 @@ h_{alt}=\left( 1 - \left( \dfrac {p_{sta}} {p_{sealevel}}\right) ^{0.190284}\rig
 </div>
 
 where:
-* p<sub>sta</sub> = measured pressure in x1 (or hPa)
-* p<sub>sealevel</sub> = millibar (or hPa) pressure at sea level; usually 1013.25, in this example, I use what I know is the pressure at sea level.
+* p<sub>sta</sub> = measured pressure in millibar (or hPa)
+* p<sub>sealevel</sub> = millibar (or hPa) pressure at sea level, or approximately 1013.25. In this example, I use what I know is the pressure at sea level.
 
 This is a more accurate version of the common heuristic that pressure reduces by 1 millibar per 30ft of elevation. After this crunching we get the graph below, showing that we reached 500m in just under 3 minutes, and you can see what this looks like from the [flight video](http://youtu.be/5M-c3BhNPWc).
 
