@@ -1,7 +1,3 @@
-<script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
 ---
 layout: post
 title: Arduino Multimeter
@@ -45,7 +41,7 @@ where:
 * psta = measured pressure in x1 (or hPa)
 * psealevel = millibar (or hPa) pressure at sea level; usually 1013.25, in this example, I use what I know is the pressure at sea level.
 
-A common heuristic is pressure reduces by 1 millibar per 30ft of elevation. After this crunching we get the graph below, showing that we reached 500m in just under 3 minutes, and you can see what this looks like from the [flight video](http://youtu.be/5M-c3BhNPWc).
+This is a more accurate version of the common heuristic that pressure reduces by 1 millibar per 30ft of elevation. After this crunching we get the graph below, showing that we reached 500m in just under 3 minutes, and you can see what this looks like from the [flight video](http://youtu.be/5M-c3BhNPWc).
 
 <p align="center">
   <img src="/images/2012-07/Screenshot-from-2012-07-30-204153.png" align="center" width="80%"/>
@@ -445,3 +441,6 @@ A common heuristic is pressure reduces by 1 millibar per 30ft of elevation. Afte
     }
     
 
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
