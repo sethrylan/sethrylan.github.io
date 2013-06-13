@@ -18,12 +18,12 @@ Where possible, I’ve listed an online retailer, but some of the generic items ma
 * Spinner and 6×4 APC prop
 * 12awg wire
 * 3mm basswood
-* 1.3mm x 4.5mm carbon fiber strip
-* 5.3mm hollow carbon fiber tube
-* 2.5mm solid carbon fiber  tube
+* 1\.3mm x 4\.5mm carbon fiber strip
+* 5\.3mm hollow carbon fiber tube
+* 2\.5mm solid carbon fiber  tube
 * [6x4e APC propeller](http://www.amazon.com/gp/product/B0006O34O4/ref=oh_details_o00_s00_i00)
 * [Nylon hinges](http://www.hobbyking.com/hobbyking/store/__8282__Nylon_Pinned_Hinge_16x28_5_10pcs_.html)
-* 5/16” zinc washer
+* 5/16" zinc washer
 
 Prior to the build, I tested three types of glue:
 * [Fast Drying Gorilla Glue](http://www.farmandfleet.com/products/593935-dries_white_2x_faster_gorilla_glue.htm#.T61kMFIXPWY)
@@ -33,10 +33,10 @@ Prior to the build, I tested three types of glue:
 The Gorilla glue requires a wet surface, several hours to dry and the expansion makes it unsuitable (and messy) for precision work. Zap-A-Gap does not produce much heat, but I decided to go with the Great Plains to prevent the issue of melting elapor foam.
 
 The motor and servos are wrapped in electrical tape so that they can be salvaged without much glue remaining on the surface.
-The parts in the EasyStar kit I received are very well made with only one piece warped by shipping. The bent empennage doesn’t matter much because we’ll be replacing the rudder anyway.
+The parts in the EasyStar kit I received are very well made with only one piece warped by shipping. The bent empennage does not matter much because we'll be replacing the rudder anyway.
 This is what the tail fin looks like with the rudder removed, and after correction with hot air. A hair dryer (or a very low setting heat gun) will work. Ease off on the heat before you see the bubbling in this picture.
 
-Use the same technique on the wings to reduce the effective dihedral angle from the upward cant of the [polyhedral](http://en.wikipedia.org/wiki/Dihedral_(aircraft)#Polyhedral) wings.
+Use the same technique on the wings to reduce the effective dihedral angle from the upward cant of the [polyhedral](http://en.wikipedia.org/wiki/Dihedral_(aircraft)\#Polyhedral) wings.
 
 This step is optional, but I plan on adding ailerons at a later time, and the dihedral will tend to roll the plane towards level, minimizing the control effect of the ailerons.
 
@@ -44,12 +44,12 @@ One of the very common Easy Star modification is to create a new, larger rudder.
 
 You can use the existing piece as a template, and even reuse the control horns that come with the kit.
 
-We’re also going to strengthen the frame and control surfaces with carbon fiber:
-* 2.5mm tube on trailing edge of the elapor, where the rudder will be mounted.
-* 2.5mm tube on the horizontal stabilizer
-* 2.5mm tube on the elevator
-* 1.4mm x 4.5mm strip in the wings
-* 5.3mm tube in the fuselage
+We're also going to strengthen the frame and control surfaces with carbon fiber:
+* 2\.5mm tube on trailing edge of the elapor, where the rudder will be mounted.
+* 2\.5mm tube on the horizontal stabilizer
+* 2\.5mm tube on the elevator
+* 1\.4mm x 4\.5mm strip in the wings
+* 5\.3mm tube in the fuselage
 
 Cut the groove with an X-acto knife and use clamps to hold the CF while the CA glue cures.
 Use similar steps for the other CF pieces. The fuselage needs large amounts of foam removed to accommodate the CF tube, and on old soldering iron works well for this.
@@ -62,7 +62,7 @@ After inserting the wing spar that comes with the kit, cut out a section need to
 You can see the edge of the CF tube on the tail fin here (after painting), as well as    the cut-outs for the hinges to the new rudder.
 
 The wiring is routed through channels carved with a soldering iron, and 12g wire is used to connect the brushless motor the the ESC. The Orange Rx has since been replaced with a [FrSky TFR6](http://www.alofthobbies.com/frsky-tfr6-6-channel-fasst-compatible-receiver.html), and the blue EC3 connectors with [XT60](http://www.sparkfun.com/products/10474) connectors. The ESC is snug between the CF spar and the fuselage. If overheating is a issue, I will need to cut an access hatch later.
-Wiring a brushless motor is easier than it would seem for three-wire design. Just connect the wires and if the motor spins the wrong way, switch any two wires. Take a look at the [wiring diagram](http://home.solcon.nl/gjkool/brushless5/W-schms-3p-E.JPG) to see why this works. On disadvantage of placing the wiring inside the fuselage – in addition to the lack of heat dissipation – is the inability to disconnect one of the wires, which would allow the motor to spin at reduced speed for testing purposes.
+Wiring a brushless motor is easier than it would seem for three-wire design. Just connect the wires and if the motor spins the wrong way, switch any two wires. Take a look at the [wiring diagram](http://home.solcon.nl/gjkool/brushless5/W-schms-3p-E.JPG) to see why this works. On disadvantage of placing the wiring inside the fuselage &mdash; in addition to the lack of heat dissipation &mdash; is the inability to disconnect one of the wires, which would allow the motor to spin at reduced speed for testing purposes.
 The receiver (and battery) should be secured with velcro.
 
 Since I plan on using the plane as test bed, I made a replacement to the canopy our of basswood. You can use the existing canopy on the plane as a template for the angles.
