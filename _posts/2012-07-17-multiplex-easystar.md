@@ -7,7 +7,7 @@ title: Multiplex Easy Star Build
 
 ## Materials: ##
 
-Where possible, I’ve listed an online retailer, but some of the generic items may require searching.
+Where possible, Iï¿½ve listed an online retailer, but some of the generic items may require searching.
 * [Easy Star Electric Kit](http://www.amazon.com/gp/product/B000BMSF22/ref=oh_details_o00_s00_i00)
 * [Hitec HS-65HB Micro Karbo Gear Servo (1.8kg/11g)](http://www.hobbyking.com/hobbyking/store/__9817__Hitec_HS_65HB_Micro_Karbo_Gear_Servo_1_8kg_11g_0_14sec.html) x2
 * [TURNIGY Plush 30amp Speed Controller (25g)](http://www.hobbyking.com/hobbyking/store/__2164__TURNIGY_Plush_30amp_Speed_Controller.html)
@@ -15,7 +15,7 @@ Where possible, I’ve listed an online retailer, but some of the generic items ma
 * [Industrial Strength Velcro](http://www.amazon.com/Velcro-Industrial-Strength-Sticky-Back-Fasteners/dp/B00006RSP1)
 * Boyd Red Eamel Spray Paint
 * Testors Gloss Gray (1238) Enamel Spray Paint
-* Spinner and 6×4 APC prop
+* Spinner and 6x4 APC prop
 * 12awg wire
 * 3mm basswood
 * 1\.3mm x 4\.5mm carbon fiber strip
