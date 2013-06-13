@@ -6,7 +6,7 @@ title: Khan Academy
 # {{ page.title }}
 ---------------------------------------
 
-After finishing the Khan Academy math exercises in ~80 hours, I made a few notes regarding deliberate practice and its place in online learning media. Khan Academy (KA) focuses far more on rout work that Udacity or Coursera, with most of modules requiring one of 1-3 techniques for solving. The adaptive training plan mostly makes up for this, but one could easily accomplish every KA exercise without any understanding of the background.
+After finishing the Khan Academy math exercises in ~80 hours, I made a few notes regarding <a href="http://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice">deliberate practice</a> and its place in online learning media. Khan Academy (KA) focuses far more on rout work that Udacity or Coursera, with most of modules requiring one of 1-3 techniques for solving. The adaptive training plan mostly makes up for this, but one could easily accomplish every KA exercise without any understanding of the background.
  
 <p align="center">
   <img src="/images/2012-09/khan_finish.png" align="center" width="80%"/>
