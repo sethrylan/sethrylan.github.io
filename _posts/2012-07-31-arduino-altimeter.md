@@ -46,10 +46,11 @@ This is a more accurate version of the common heuristic that pressure reduces by
 <p align="center">
   <img src="/images/2012-07/Screenshot-from-2012-07-30-204153.png" align="center" width="80%"/>
 </p>
-	
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="http://codebender.cc/embed/sketch:12085" frameborder="0"></iframe>
-
 
 <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+
+	
+<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="http://codebender.cc/embed/sketch:12085" frameborder="0"></iframe>
+
