@@ -250,18 +250,18 @@ This is a more accurate version of the common heuristic that pressure reduces by
       Serial.print(",");   
       Serial.print(temperature, DEC);
       Serial.print(",");    
+      Serial.print(pressure, DEC);	
+	  
+	  Serial.print("Temperature: ");
+      Serial.print(temperature, DEC);
+      Serial.println(" *0.1 deg C");
+      Serial.print("Pressure: ");
       Serial.print(pressure, DEC);
+      Serial.println(" Pa");
+      Serial.println();
+      delay(1000);
     #endif //ECHO_TO_SERIAL
-    
-    //  Serial.print("Temperature: ");
-    //  Serial.print(temperature, DEC);
-    //  Serial.println(" *0.1 deg C");
-    //  Serial.print("Pressure: ");
-    //  Serial.print(pressure, DEC);
-    //  Serial.println(" Pa");
-    //  Serial.println();
-    //  delay(1000);
-    
+        
       // Log the estimated 'VCC' voltage by measuring the internal 1.1v ref
       analogRead(BANDGAPREF); 
       delay(10);
@@ -439,7 +439,10 @@ This is a more accurate version of the common heuristic that pressure reduces by
       up = (((unsigned long) msb << 16) | ((unsigned long) lsb << 8) | (unsigned long) xlsb) >> (8-OSS);
       return up;
     }
-    
+	
+	
+<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="http://codebender.cc/embed/sketch:12085" frameborder="0"></iframe>
+
 
 <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
