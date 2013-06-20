@@ -54,5 +54,5 @@ This is a more accurate version of the common heuristic that pressure reduces by
 
 ## Arduino Code ##
 	
-<iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="http://codebender.cc/embed/sketch:12085" frameborder="0"> </iframe>
+<iframe style="height: 600px; width: 150%; margin: 0px 0 0px;" allowTransparency="true" src="http://codebender.cc/embed/sketch:12085" frameborder="0"> </iframe>
 
