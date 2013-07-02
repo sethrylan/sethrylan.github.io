@@ -13,7 +13,7 @@ The usual build tool for Scala is [SBT](http://www.scala-sbt.org/), but I've bee
 
 ### ScalaConsole in the Gradle scala plugin ###
 
-The [ScalaBasePlugin](http://code-review.gradle.org/browse/Gradle/subprojects/scala/src/main/groovy/org/gradle/api/plugins/scala/ScalaBasePlugin.groovy?hb=true) for Gradle defines the `scalaConsole` and `scalaTestConsole` tasks, which aren't widely used (or documented) due to [known issues](http://forums.gradle.org/gradle/topics/scalaconsole) affecting its use. In particular, you have to make a few changes before the feature is usable. In order the fix the 
+The [ScalaBasePlugin](http://code-review.gradle.org/browse/Gradle/subprojects/scala/src/main/groovy/org/gradle/api/plugins/scala/ScalaBasePlugin.groovy?hb=true) for Gradle defines the `scalaConsole` and `scalaTestConsole` tasks, which aren't widely used (or documented) due to [known issues](http://forums.gradle.org/gradle/topics/scalaconsole). In particular, you have to make a few changes before the feature is usable. In order the fix the 
 
     :scalaConsole
     Error: Could not find or load main class scala.tools.nsc.MainGenericRunner
