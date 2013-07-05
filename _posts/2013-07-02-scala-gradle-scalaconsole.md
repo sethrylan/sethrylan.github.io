@@ -1,6 +1,9 @@
 ---
 layout: post
 title: ScalaConsole with Gradle
+sitemap:
+  priority: 0.7
+  changefreq: weekly
 ---
 
 # {{ page.title }}

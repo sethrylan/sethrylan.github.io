@@ -1,6 +1,9 @@
 ---
 layout: post
 title: IntelliJ Scala Plugin
+sitemap:
+  priority: 0.7
+  changefreq: weekly
 ---
 
 # {{ page.title }}

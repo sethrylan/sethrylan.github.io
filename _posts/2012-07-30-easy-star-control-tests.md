@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Easy Star Control Tests
+sitemap:
+  priority: 0.7
+  changefreq: weekly
 ---
 
 # {{ page.title }}

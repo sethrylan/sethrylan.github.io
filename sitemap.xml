@@ -7,36 +7,29 @@ title: sitemap.xml
 	<loc>{{ site.url }}/</loc>
 	<lastmod>{{site.time | date_to_xmlschema }}</lastmod>
 </url>
-{% for post in site.posts reversed %}
+{% for post in site.posts %}
 	{% unless post.draft %}
 	<url>
 		<loc>{{ site.url }}{{ post.url }}</loc>
 		
-		{% if post.lastmod == null %}
-		<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-		{% else %}
+		{% if post.lastmod %}
 		<lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+		{% else %}
+		<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
 		{% endif %}
 		
-		{% if p.sitemap_priority %}
-		<priority>{{ p.sitemap_priority }}</priority>
+		{% if post.sitemap.changefreq %}
+		<changefreq>{{ post.sitemap.changefreq }}</changefreq>
+		{% endif %}
+		
+		{% if post.sitemap.priority %}
+		<priority>{{ post.sitemap.priority }}</priority>
 		{% else %}
 		<priority>1.0</priority>
 		{% endif %}
 		
 	</url>
 	{% endunless %}
-{% endfor %}
-
-{% for page in site.pages %}
-	{% if page.sitemap != null and page.sitemap != empty %}
-	<url>
-		<loc>{{ site.url }}{{ page.url }}</loc>
-		<lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
-		<changefreq>{{ page.sitemap.changefreq }}</changefreq>
-		<priority>{{ page.sitemap.priority }}</priority>
-	</url>
-	{% endif %}
 {% endfor %}
 
 </urlset>

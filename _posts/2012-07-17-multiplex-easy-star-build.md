@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Multiplex Easy Star Build
+sitemap:
+  priority: 0.7
+  changefreq: weekly
 ---
 
 # {{ page.title }}

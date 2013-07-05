@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Arduino Barometric Altimeter
+sitemap:
+  priority: 0.7
+  changefreq: weekly
 ---
 
 # {{ page.title }}

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Khan Academy
+sitemap:
+  priority: 0.7
+  changefreq: weekly
 ---
 
 # {{ page.title }}

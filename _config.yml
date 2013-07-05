@@ -16,13 +16,14 @@ googleanalytics:
 author:
   name: Seth Rylan Gainey
   email: seth.gainey@gmail.com
+  obfuscatedemail: mailto:seth{dot}rylan{at}gmail{dot}com
   profiles:
-    - label: github
+    - label: GitHub
       url: https://github.com/sethrylan
       text: Code and Research Papers
-    - label: pinboard
+    - label: Pinboard
       url: https://pinboard.in/u:sethrylan
-      text: Interesting Links
+      text: Bookmarks for busy people
     - label: StackOverflow
       url: http://stackoverflow.com/users/1585816/seth-rylan
       text: Questions and Answers 
