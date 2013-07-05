@@ -29,7 +29,7 @@ Assuming you start with a Gradle project using the Scala plugin and clean Intell
   <a class="fancybox" href="/images/2013-07/add-scala-framework.png"><img src="/images/2013-07/add-scala-framework.png" align="center" width="80%"/></a>
 </p>
 
-Complete. If you had some existing global libraries, or tried following [some](http://devnet.jetbrains.com/thread/290032) of [the older](http://stackoverflow.com/questions/9563342/how-to-run-scala-code-on-intellij-idea-11) plugin [documentation](http://confluence.jetbrains.com/display/SCA/Getting+Started+with+IntelliJ+IDEA+Scala+Plugin), then you will likely find errors such as
+And finished. If you had existing scala-compiler/scala-library global libraries, or tried following [some](http://devnet.jetbrains.com/thread/290032) of [the older](http://stackoverflow.com/questions/9563342/how-to-run-scala-code-on-intellij-idea-11) plugin [documentation](http://confluence.jetbrains.com/display/SCA/Getting+Started+with+IntelliJ+IDEA+Scala+Plugin), then you will likely find errors such as
 
 ```Exception in thread "main" java.lang.NoClassDefFoundError: scala/reflect/internal/Trees```
 
