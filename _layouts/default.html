@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
     <style>
-      header { zoom: 1.2; }
+      header { zoom: 1.1 ;}
       header h1 { margin-bottom: 5px; }
       header h1 a { color: #494949; font-weight: bold; }
       header h3 { margin-top: 20px; margin-bottom: 5px; }
@@ -69,9 +69,9 @@
 		<p class="view"><a href="{{profile.url}}" target="tab">{{profile.label}}<small>{{profile.text}}</small></a></p>
 		{% endfor %}
 		
-		<h3>Posts</h3>
+		<h3>Recent Posts</h3>
 
-		{% for post in site.posts limit:1000 %}
+		{% for post in site.posts limit:10 %}
 		<p class="view"><a href="{{ post.url }}">{{ post.title }}<small>{{ post.date | date_to_string }}</small></a></p>
 		{% endfor %}
 
