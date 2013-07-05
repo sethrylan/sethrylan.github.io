@@ -34,4 +34,4 @@ or
 
 ```Please, adjust compiler library in Scala facet: no scala-compiler*.jar found.```
 
-
+This is just IntelliJ's way of saying the the new way is much easier.
