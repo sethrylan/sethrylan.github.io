@@ -17,16 +17,16 @@ Assuming you start with a Gradle project using the Scala plugin and clean Intell
 1. ```File``` -> ```Import Project```. Select folder with parent build.gradle.
 2. Import project from external model
 <p align="center">
-  <a class="fancybox" href="/images/2013-07/intellij-import.png"><img src="/images/2013-07/intellij-import.png" align="center" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-07/intellij-import.png"><img src="{{site.url}}/images/2013-07/intellij-import.png" align="center" width="80%"/></a>
 </p>
 3. Select whether to use the gradle wrapper or a local installation, then finish import with default settings.
 4. Right-click parent folder in project structure, select ```Add Framework Support...```.
 <p align="center">
-  <a class="fancybox" href="/images/2013-07/add-framework.png"><img src="/images/2013-07/add-framework.png" align="center" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-07/add-framework.png"><img src="{{site.url}}/images/2013-07/add-framework.png" align="center" width="80%"/></a>
 </p>
 5. Depending on your Scala installation, some expected folders may be missing.
 <p align="center">
-  <a class="fancybox" href="/images/2013-07/add-scala-framework.png"><img src="/images/2013-07/add-scala-framework.png" align="center" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-07/add-scala-framework.png"><img src="{{site.url}}/images/2013-07/add-scala-framework.png" align="center" width="80%"/></a>
 </p>
 
 And finished. If you had existing scala-compiler/scala-library global libraries, or tried following [some](http://devnet.jetbrains.com/thread/290032) of [the older](http://stackoverflow.com/questions/9563342/how-to-run-scala-code-on-intellij-idea-11) plugin [documentation](http://confluence.jetbrains.com/display/SCA/Getting+Started+with+IntelliJ+IDEA+Scala+Plugin), then you will likely find errors such as
