@@ -1,9 +1,10 @@
 url:         http://sethrylan.org
 baseurl:     /
+title:       sethrylan.org
 server_port: 4000
-safe: true
-lsi: true
-pygments: true
+safe:        true
+lsi:         true
+pygments:    true
 permalink:   date
 markdown:    maruku
 maruku:
@@ -12,21 +13,21 @@ maruku:
   png_dir:   images/latex
   png_url:   /images/latex
 googleanalytics:
-  account: UA-33138107-1
+  account:   UA-33138107-1
 author:
-  name: Seth Rylan Gainey
-  email: seth.gainey@gmail.com
+  name:      Seth Rylan Gainey
+  email:     seth.gainey@gmail.com
   obfuscatedemail: mailto:seth{dot}rylan{at}gmail{dot}com
   profiles:
     - label: GitHub
-      url: https://github.com/sethrylan
-      text: Code and Research Papers
+      url:   https://github.com/sethrylan
+      text:  Code and Research Papers
     - label: Pinboard
-      url: https://pinboard.in/u:sethrylan
-      text: Bookmarks for busy people
+      url:   https://pinboard.in/u:sethrylan
+      text:  Bookmarks for busy people
     - label: StackOverflow
-      url: http://stackoverflow.com/users/1585816/seth-rylan
-      text: Questions and Answers 
+      url:   http://stackoverflow.com/users/1585816/seth-rylan
+      text:  Questions and Answers 
 navigation:
-  - text: Home
-    url: /index.html
+  - text:    Home
+    url:     /index.html
