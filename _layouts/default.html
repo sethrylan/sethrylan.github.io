@@ -13,7 +13,6 @@
       header h1 { margin-bottom: 5px; }
       header h1 a { color: #494949; font-weight: bold; }
       header h3 { margin-top: 20px; margin-bottom: 5px; }
-	  header h3 img { vertical-align:middle; }
       header p.view { margin-bottom: 5px; }
       header p.view small { padding-top: 2px; }
       header ul {
@@ -73,7 +72,7 @@
 		<p class="view"><a href="{{profile.url}}" target="tab">{{profile.label}}<small>{{profile.text}}</small></a></p>
 		{% endfor %}
 		
-		<h3>Recent Posts <a href="atom.xml"><img height="8" src="/images/rss_icon&16.png"/></a></h3>
+		<h3>Recent Posts <a href="atom.xml"><img height="12" src="/images/rss_icon&16.png"/></a></h3>
 
 		{% for post in site.posts limit:10 %}
 		<p class="view"><a href="{{ post.url }}">{{ post.title }}<small>{{ post.date | date_to_string }}</small></a></p>
