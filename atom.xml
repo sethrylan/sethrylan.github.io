@@ -29,6 +29,10 @@ layout: nil
 	{% if post.summary %}
     <summary>{{ post.summary | xml_escape }}</summary>
     {% endif %}
+	
+    {% for tag in post.tags %}
+    <category term="{{ tag }}"></category>
+    {% endfor %}
 
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
