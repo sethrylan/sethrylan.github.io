@@ -27,9 +27,13 @@
 		
 		<h3>Recent Posts <a href="{{site.url}}/atom.xml"><img height="12" src="/images/rss_icon&16.png"/></a></h3>
 
-		{% for post in site.posts limit:10 %}
+		{% for post in site.posts limit:7 %}
 		<p class="view"><a href="{{ post.url }}">{{ post.title }} <small>{{ post.date | date_to_string }}</small></a></p>
 		{% endfor %}
+		
+		<p>
+		<small><a href="{{ site.url }}/posts.html">All posts</a></small>
+		</p>
 		
         {% if page.repository_url %}
           <h3>Project Info</h3>
