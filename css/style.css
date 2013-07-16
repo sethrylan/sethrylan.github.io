@@ -1,6 +1,15 @@
+      /* Better styles for embedding GitHub Gists */
+      .gist{font-size:10px;line-height:14px;margin-bottom:20px;width:100%}
+      .gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important}
+      .gist-meta{font-family:Helvetica,Arial,sans-serif;font-size:10px !important}
+      .gist-meta a{color:#26a !important;text-decoration:none}
+      .gist-meta a:hover{color:#0e4071 !important}
+	  
+	  
+      .reversed { unicode-bidi:bidi-override; direction: rtl; }
       .bar {background:#eee; height:14px; margin-top:4px; float:right; cursor:default;}
       .bar:hover {text-decoration:none; background:#ccc;}
-      header { zoom: 1.1 ;}
+      header { zoom: 1.1;}
       header h1 { margin-bottom: 5px; }
       header h1 a { color: #494949; font-weight: bold; }
       header h3 { margin-top: 20px; margin-bottom: 5px; }
@@ -10,6 +19,7 @@
         zoom: 0.7;
         margin-top: 25px;
       }
+      section { width:550px; }
       section p { margin-top: 10px; }
       section h1 { margin-bottom: 15px; }
       section h2 { margin-bottom: 10px; }
@@ -17,7 +27,7 @@
       footer { 
 	     bottom: 10px; 
 		 width:103%; 
-		 margin-left:-10px;  
+		 margin-left:-50px;  
 	  }
       footer p { margin-bottom: 5px; }
       .half-width {
