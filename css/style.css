@@ -5,10 +5,7 @@
       .gist-meta a{color:#26a !important;text-decoration:none}
       .gist-meta a:hover{color:#0e4071 !important}
 	  
-	  
       .reversed { unicode-bidi:bidi-override; direction: rtl; }
-      .bar {background:#eee; height:14px; margin-top:4px; float:right; cursor:default;}
-      .bar:hover {text-decoration:none; background:#ccc;}
       header { zoom: 1.1;}
       header h1 { margin-bottom: 5px; }
       header h1 a { color: #494949; font-weight: bold; }
