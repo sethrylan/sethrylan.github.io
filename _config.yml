@@ -16,8 +16,8 @@ googleanalytics:
   account:   UA-33138107-1
 author:
   name:      Seth Rylan Gainey
-  email:     seth.gainey@gmail.com
-  obfuscatedemail: mailto:seth{dot}rylan{at}gmail{dot}com
+  email:     seth@sethrylan.org
+  obfuscatedemail: mailto:seth{at}sethrylan{dot}org
   profiles:
     - label: GitHub
       url:   https://github.com/sethrylan
