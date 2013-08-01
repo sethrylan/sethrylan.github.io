@@ -10,11 +10,6 @@
 	<link rel="stylesheet" href="/css/style.css">
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$(".fancybox").fancybox();			
-		});
-	</script>
   </head>
   <body>
     <div class="wrapper">
@@ -67,6 +62,10 @@
 	
 	<!-- analytics -->
 	<script type="text/javascript">
+      $(document).ready(function() {
+        $(".fancybox").fancybox();			
+      });
+
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', '{{ site.googleanalytics.account }}']);
       _gaq.push(['_setDomainName', 'sethrylan.org']);
