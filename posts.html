@@ -12,9 +12,9 @@ title: All Posts
         {% assign words = words|plus:line_words %}
     {% endfor %}
     <p>
-		<small>{{ post.date | date_to_string }}</small>
-		<a href="{{ post.url }}">{{ post.title }}</a> <small style="float:right; margin-right:+100px">{{ words }} words</small>
-		<!--a class="bar" href="#" style="width:65px;" data-original-title="{{ words }} words">&nbsp;</a-->
-	</p>
+        <small>{{ post.date | date_to_string }}</small>
+        <a href="{{ post.url }}">{{ post.title }}</a> <small style="float:right; margin-right:+100px">{{ words }} words</small>
+        <!--a class="bar" href="#" style="width:65px;" data-original-title="{{ words }} words">&nbsp;</a-->
+    </p>
 {% endfor %}
 </ul>

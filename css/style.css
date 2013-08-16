@@ -4,7 +4,7 @@
       .gist-meta{font-family:Helvetica,Arial,sans-serif;font-size:10px !important}
       .gist-meta a{color:#26a !important;text-decoration:none}
       .gist-meta a:hover{color:#0e4071 !important}
-	  
+      
       .reversed { unicode-bidi:bidi-override; direction: rtl; }
       header { zoom: 1.1;}
       header h1 { margin-bottom: 5px; }
@@ -22,10 +22,10 @@
       section h2 { margin-bottom: 10px; }
       section h2 { margin-bottom: 10px; }
       footer { 
-	     bottom: 10px; 
-		 width:103%; 
-		 margin-left:-50px;  
-	  }
+         bottom: 10px; 
+         width:103%; 
+         margin-left:-50px;  
+      }
       footer p { margin-bottom: 5px; }
       .half-width {
         float: left;
@@ -48,7 +48,7 @@
       .clear-fix {
         clear: both;
       }
-	  dd {
-		margin: -.5em 0 0em 0em;
-		padding: 0 0 -2em 0;
-	  }
+      dd {
+        margin: -.5em 0 0em 0em;
+        padding: 0 0 -2em 0;
+      }
