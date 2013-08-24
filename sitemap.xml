@@ -7,6 +7,12 @@ title: sitemap.xml
     <loc>{{ site.url }}/</loc>
     <lastmod>{{site.time | date_to_xmlschema }}</lastmod>
 </url>
+{% for project in site.projects %}
+    <url>
+        <loc>{{ site.url }}{{ project.url }}</loc>        
+    </url>
+{% endfor %}
+
 {% for post in site.posts %}
     {% unless post.draft %}
     <url>

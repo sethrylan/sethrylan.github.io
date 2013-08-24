@@ -31,3 +31,7 @@ author:
 navigation:
   - text:    Home
     url:     /index.html
+projects:
+  - label: An Educated Guess
+    url:   /bayesian
+    text:  Calibrated Probability Assessment
