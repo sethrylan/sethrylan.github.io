@@ -22,7 +22,7 @@
 
         <h3>Projects</h3>
         {% for project in site.projects %}
-        <p class="view"><a href="{{project.url}}" target="tab">{{project.label}} <small>{{project.text}}</small></a></p>
+        <p class="view"><a href="{{project.url}}">{{project.label}} <small>{{project.text}}</small></a></p>
         {% endfor %}
         
         <h3>Recent Posts <a href="{{site.url}}/atom.xml"><img height="12" src="/images/rss_icon&16.png"/></a></h3>
