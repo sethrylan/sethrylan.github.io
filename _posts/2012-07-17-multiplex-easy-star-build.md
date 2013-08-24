@@ -24,13 +24,13 @@ Where possible, I've listed an online retailer, but some of the generic items ma
 </p>
 
 * [Easy Star Electric Kit](http://www.amazon.com/gp/product/B000BMSF22/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000BMSF22&linkCode=as2&tag=sethrylan-20)
-* [Hitec HS-65HB Micro Karbo Gear Servo](http://www.hobbyking.com/hobbyking/store/__9817__Hitec_HS_65HB_Micro_Karbo_Gear_Servo_1_8kg_11g_0_14sec.html) (1.8kg/11g) x2
+* [Hitec HS-65HB Micro Karbo Gear Servo](http://www.amazon.com/gp/product/B003T6XGNU/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003T6XGNU&linkCode=as2&tag=sethrylan-20) (1.8kg/11g) x2
 * [TURNIGY Plush 30amp Speed Controller](http://www.hobbyking.com/hobbyking/store/__2164__TURNIGY_Plush_30amp_Speed_Controller.html)  (25g)
-* [S2838-2800 Brushless Inrunner](http://www.hobbyking.com/hobbyking/store/__2164__TURNIGY_Plush_30amp_Speed_Controller.html) (2800kv)
+* [S2838-2800 Brushless Inrunner](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=15187) (2800kv)
 * [Industrial Strength Velcro](http://www.amazon.com/gp/product/B00006RSP1/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00006RSP1&linkCode=as2&tag=sethrylan-20)
 * Boyd Red Eamel Spray Paint
 * Testors Gloss Gray (1238) Enamel Spray Paint
-* Spinner and 6x4 APC prop
+* Spinner/Collet
 * 12awg wire
 * 3mm basswood
 * 1\.3mm x 4\.5mm carbon fiber strip
