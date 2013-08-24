@@ -43,7 +43,7 @@ Where possible, I've listed an online retailer, but some of the generic items ma
 
 Prior to the build, I tested three types of glue:
 * [Fast Drying Gorilla Glue] (http://www.farmandfleet.com/products/593935-dries_white_2x_faster_gorilla_glue.htm#.T61kMFIXPWY)
-* [Zap-A-Gap Medium CA+](http://www.amazon.com/gp/product/B000O5GXY8/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000O5GXY8&linkCode=as2&tag=sethrylan-20
+* [Zap-A-Gap Medium CA+](http://www.amazon.com/gp/product/B000O5GXY8/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000O5GXY8&linkCode=as2&tag=sethrylan-20)
 * [Pro Foam Safe CA Glue](http://www.amazon.com/gp/product/B001BHK5EM/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001BHK5EM&linkCode=as2&tag=sethrylan-20)
 
 The Gorilla glue requires a wet surface, several hours to dry and the expansion makes it unsuitable (and messy) for precision work. Zap-A-Gap does not produce much heat, but I decided to go with the Great Plains to prevent the issue of melting elapor foam.
