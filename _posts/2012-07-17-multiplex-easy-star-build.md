@@ -23,11 +23,11 @@ Where possible, I've listed an online retailer, but some of the generic items ma
   <a class="fancybox" href="{{site.url}}/images/2012-07/IMG_0847.jpg"><img src="/images/2012-07/IMG_0847.jpg" align="center" width="50%"/></a>
 </p>
 
-* [Easy Star Electric Kit](http://www.amazon.com/gp/product/B000BMSF22/ref=oh_details_o00_s00_i00)
+* [Easy Star Electric Kit](http://www.amazon.com/gp/product/B000BMSF22/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000BMSF22&linkCode=as2&tag=sethrylan-20)
 * [Hitec HS-65HB Micro Karbo Gear Servo](http://www.hobbyking.com/hobbyking/store/__9817__Hitec_HS_65HB_Micro_Karbo_Gear_Servo_1_8kg_11g_0_14sec.html) (1.8kg/11g) x2
 * [TURNIGY Plush 30amp Speed Controller](http://www.hobbyking.com/hobbyking/store/__2164__TURNIGY_Plush_30amp_Speed_Controller.html)  (25g)
 * [S2838-2800 Brushless Inrunner](http://www.hobbyking.com/hobbyking/store/__2164__TURNIGY_Plush_30amp_Speed_Controller.html) (2800kv)
-* [Industrial Strength Velcro](http://www.amazon.com/Velcro-Industrial-Strength-Sticky-Back-Fasteners/dp/B00006RSP1)
+* [Industrial Strength Velcro](http://www.amazon.com/gp/product/B00006RSP1/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00006RSP1&linkCode=as2&tag=sethrylan-20)
 * Boyd Red Eamel Spray Paint
 * Testors Gloss Gray (1238) Enamel Spray Paint
 * Spinner and 6x4 APC prop
@@ -36,15 +36,15 @@ Where possible, I've listed an online retailer, but some of the generic items ma
 * 1\.3mm x 4\.5mm carbon fiber strip
 * 5\.3mm hollow carbon fiber tube
 * 2\.5mm solid carbon fiber  tube
-* [6x4e APC propeller](http://www.amazon.com/gp/product/B0006O34O4/ref=oh_details_o00_s00_i00)
+* [6x4e APC propeller](http://www.amazon.com/gp/product/B0006O34O4/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0006O34O4&linkCode=as2&tag=sethrylan-20)
 * [Nylon hinges](http://www.hobbyking.com/hobbyking/store/__8282__Nylon_Pinned_Hinge_16x28_5_10pcs_.html)
 * 5/16" zinc washer
 
 
 Prior to the build, I tested three types of glue:
 * [Fast Drying Gorilla Glue] (http://www.farmandfleet.com/products/593935-dries_white_2x_faster_gorilla_glue.htm#.T61kMFIXPWY)
-* [Zap-A-Gap Medium CA+](http://www.amazon.com/2oz-Zap-Green-Zap-Gap/dp/B000O5GXY8)
-* [Pro Foam Safe CA Glue](http://www.amazon.com/gp/product/B001BHK5EM/ref=oh_details_o00_s01_i00)
+* [Zap-A-Gap Medium CA+](http://www.amazon.com/gp/product/B000O5GXY8/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000O5GXY8&linkCode=as2&tag=sethrylan-20
+* [Pro Foam Safe CA Glue](http://www.amazon.com/gp/product/B001BHK5EM/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001BHK5EM&linkCode=as2&tag=sethrylan-20)
 
 The Gorilla glue requires a wet surface, several hours to dry and the expansion makes it unsuitable (and messy) for precision work. Zap-A-Gap does not produce much heat, but I decided to go with the Great Plains to prevent the issue of melting elapor foam.
 
