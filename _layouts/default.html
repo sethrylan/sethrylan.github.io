@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{{ page.title }}</title>
     <link href="{{site.url}}/atom.xml" type="application/atom+xml" rel="alternate" title="Posts ATOM Feed">
     <link rel="stylesheet" href="https://github.com/themes/minimal/stylesheets/styles.css">
@@ -25,7 +24,7 @@
         <p class="view"><a href="{{project.url}}">{{project.label}} <small>{{project.text}}</small></a></p>
         {% endfor %}
         
-        <h3>Recent Posts <a href="{{site.url}}/atom.xml"><img height="12" src="/images/rss_icon&16.png"/></a></h3>
+        <h3>Recent Posts <a href="{{site.url}}/atom.xml"><img height="12" alt="rss" src="/images/rss_icon&amp;16.png"/></a></h3>
         {% for post in site.posts limit:6 %}
         <p class="view"><a href="{{ post.url }}">{{ post.title }} <small>{{ post.date | date_to_string }}</small></a></p>
         {% endfor %}
@@ -60,7 +59,7 @@
         {{ content }}
       </section>
       <footer>
-        <p><small>Built with Jekyll and <a href="https://github.com/sethrylan/sethrylan.github.io">hosted</a> on <a href="http://pages.github.com">GitHub Pages</a> &mdash; Theme by <a href="https://github.com/orderedlist/minimal">orderedlist</a></p>
+        <p><small>Built with Jekyll and <a href="https://github.com/sethrylan/sethrylan.github.io">hosted</a> on <a href="http://pages.github.com">GitHub Pages</a> &mdash; Theme by <a href="https://github.com/orderedlist/minimal">orderedlist</a></small></p>
       </footer>
     </div>
     
