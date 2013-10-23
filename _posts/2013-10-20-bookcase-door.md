@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Weekend Project - Bookcase Door
+title: Weekend Project &mdash; Bookcase Door
 sitemap:
   priority: 0.7
   changefreq: weekly
