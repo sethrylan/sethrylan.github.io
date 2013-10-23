@@ -57,7 +57,7 @@ The existing door and jambs must be removed. In my case, the door casing is anot
 
 You can see the rough frame in the picture above. I used 1x5 (.75"x4.5") boards to cover the 2x4s; the edges of the 1x5 are flush against the drywall surface on either side. This rough frame is usually not level, which is the reason that prehung doors are sold with a set of shims. Now is the time to correct that. Luckily, mine was only off by 3-4mm frome square, which was within my 1/4" width tolerance.
 
-Rebuild the top and hinge-side casing, then patch the drywall on the other side. The bookshelf will have a vertical length of casing attached, which will cover the ~2" clearance needed to swing.
+Rebuild the top and hinge-side casing, then patch the drywall on the other side. The bookshelf will have a vertical length of casing attached, which will cover the ~2" clearance needed to swing out the bookcase.
 
 <p align="center">
   <a class="fancybox" href="{{site.url}}/images/2013-10/rebuilt_casing.jpg"><img src="{{site.url}}/images/2013-10/rebuilt_casing.jpg" align="center" width="60%"/></a>
