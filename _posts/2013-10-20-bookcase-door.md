@@ -60,13 +60,13 @@ You can see the rough frame in the picture above. I used 1x5 (.75"x4.5") boards 
 Rebuild the top and hinge-side casing, then patch the drywall on the other side. The bookshelf will have a vertical length of casing attached, which will cover the ~2" clearance needed to swing.
 
 <p align="center">
-  <a class="fancybox" href="{{site.url}}/images/2013-10/rebuilt_casing.jpg"><img src="{{site.url}}/images/2013-10/rebuilt_casing.jpg" align="center" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-10/rebuilt_casing.jpg"><img src="{{site.url}}/images/2013-10/rebuilt_casing.jpg" align="center" width="60%"/></a>
 </p>
 
 Now you can test the footprint dimensions of your bookcase using a piece of cardboard. I choose a footprint of 23.5"x7.5", which allowed me to build the entire shelf with 1x8 dimensional lumber.
 
 <p align="center">
-  <a class="fancybox" href="{{site.url}}/images/2013-10/door_unhinged.jpg"><img src="{{site.url}}/images/2013-10/door_unhinged.jpg" align="center" width="50%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-10/door_unhinged.jpg"><img src="{{site.url}}/images/2013-10/door_unhinged.jpg" align="center" width="40%"/></a>
 </p>
 
 Optionally, you can add a cat door with decorative trim.
@@ -80,7 +80,7 @@ The bookshelf alone will weight ~50lbs. Even after securing the hinges into the 
 As an alternative to traditional hinges, I experimented with ball-bearing swivels on the top and bottom. The swivel design has two drawbacks: the increased vertical clearance is noticeable, and the central axis requires more clearance on the supported side of the door, which cannot be concealed by casing. And although small swivels are load-rated at 300-500 pounds, they are designed for compression, not tensile/shear strain that results from a an off-center load. [SOSS](http://www.soss.com/soss_invisible_hinge_model_100/?DepartmentId=1721) and [Murphy Door](http://www.themurphydoor.com/store/hardware-kits/flush-mount-hinge-kit) also make suitable products, but at $100-130 per set.
 
 <p align="center">
-  <a class="fancybox" href="{{site.url}}/images/2013-10/rollers.jpg"><img src="{{site.url}}/images/2013-10/rollers.jpg" align="center" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-10/rollers.jpg"><img src="{{site.url}}/images/2013-10/rollers.jpg" align="center" width="60%"/></a>
 </p>
  
 ## Finishing ##
@@ -94,7 +94,7 @@ A recessed handhold and cabinet closures add some finish. Carving slots for the 
 The end result is 14 linear shelf-feet of book space.
 
 <p align="center">
-  <a class="fancybox" href="{{site.url}}/images/2013-10/final.jpg"><img src="{{site.url}}/images/2013-10/final.jpg" align="center" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-10/final.jpg"><img src="{{site.url}}/images/2013-10/final.jpg" align="center" width="60%"/></a>
 </p>
 
 
