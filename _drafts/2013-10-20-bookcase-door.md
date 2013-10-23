@@ -23,9 +23,9 @@ Dimensional lumber in nominal sizes.
 * 1x2 (2 feet)
 * 1/4" luan
 * paint (shelf and wall)
-* 2.5" trim nails
+* 2 1/2" trim nails
 * sandpaper
-* 1.5" rollers
+* 1 1/2" rollers
 
 ## Tools: ##
 
