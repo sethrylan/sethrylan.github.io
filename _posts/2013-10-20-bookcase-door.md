@@ -25,7 +25,7 @@ Dimensional lumber in nominal sizes.
 * paint (shelf and wall)
 * 2 1/2" trim nails
 * sandpaper
-* 1.5" rollers
+* 1 1/2" rollers
 
 ## Tools: ##
 
