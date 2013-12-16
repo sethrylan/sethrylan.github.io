@@ -7,6 +7,13 @@ Run locally with ```jekyll serve --watch```
 
 Jekyll Linux Install
 ===================
+```rvm install 1.9.2```
+```rvm use 1.9.2```
+```rvm --default 1.9.2```
+or
 ```sudo apt-get install ruby1.9.1-dev```
+then
 ```sudo gem install jekyll```
 
+
+http://snazzymaps.com/
