@@ -34,4 +34,4 @@ navigation:
 projects:
   - label: An Educated Guess
     url:   /bayesian
-    text:  Calibrated Probability Assessment
+    text:  Calibrated Probability Assessment   # Redirect to gh-pages branch of sethrylan.github.com/bayesian repo
