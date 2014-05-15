@@ -6,12 +6,7 @@ safe:        true
 lsi:         true
 pygments:    true
 permalink:   date
-markdown:    maruku
-maruku:
-  use_tex:   false
-  use_divs:  false
-  png_dir:   images/latex
-  png_url:   /images/latex
+markdown:    kramdown
 googleanalytics:
   account:   UA-33138107-1
 author:
