@@ -28,7 +28,7 @@ error, the scala-compiler must be added as a runtime dependency. In addition, th
 However, you'll still experience the problem of overlaying the Gradle build output on top of the REPL, unless you use the -q/--quiet switch. Many thanks to [Tim Vergenz](https://github.com/vergenzt) for pointing this out.
 
     $ gradle scalaConsole -q
-    Welcome to Scala version 2.10.0 (Java HotSpot(TM) 64-Bit Server VM, Java 1.7.0_25).
+    Welcome to Scala version 2.9.2 (Java HotSpot(TM) 64-Bit Server VM, Java 1.7.0_15).
     Type in expressions to have them evaluated.
     Type :help for more information.
     
