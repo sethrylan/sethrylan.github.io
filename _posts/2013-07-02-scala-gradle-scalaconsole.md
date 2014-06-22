@@ -25,17 +25,15 @@ error, the scala-compiler must be added as a runtime dependency. In addition, th
 
 <script src="https://gist.github.com/sethrylan/5910482.js"> </script>
 
-However, you'll still experience the probelm of overlaying the gradle build output on top of the REPL.
+However, you'll still experience the problem of overlaying the Gradle build output on top of the REPL, unless you use the -q/--quiet switch. Many thanks to [Tim Vergenz](https://github.com/vergenzt) for pointing this out.
 
-    Welcome to Scala version 2.9.2 (Java HotSpot(TM) 64-Bit Server VM, Java 1.7.0_15).
+    $ gradle scalaConsole -q
+    Welcome to Scala version 2.10.0 (Java HotSpot(TM) 64-Bit Server VM, Java 1.7.0_25).
     Type in expressions to have them evaluated.
     Type :help for more information.
-
-    scala>
-    > Building > :scalaConsolevar list = List("seriouly?")         list: List[java.lang.String] = List(seriouly?)
-
-	scala>
-    > Building > :scalaConsole
+    
+    scala> var list = List("Lisp-ity List")
+    list: List[String] = List(Lisp-ity List)
 
 --------------------------------------------------
 
@@ -44,5 +42,4 @@ However, you'll still experience the probelm of overlaying the gradle build outp
 No longer actively developed, [ScalaConsole](https://bitbucket.org/centaur/scalaconsole/wiki/Home) is a Swing application that opens a REPL in a new window. Still a few changes necessary to add the working directories to the classpath:
 
 <script src="https://gist.github.com/sethrylan/5910509.js">  </script>
- 
 
