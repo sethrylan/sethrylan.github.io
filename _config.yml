@@ -4,7 +4,7 @@ title:       sethrylan.org
 port:        4000
 safe:        true
 lsi:         true
-pygments:    true
+highlighter: true
 permalink:   date
 markdown:    kramdown
 googleanalytics:
