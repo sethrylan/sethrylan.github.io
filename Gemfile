@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '1.9.2'
+ruby '2.1.1'
 
-gem 'jekyll'
-gem 'kramdown', '1.3.3'
+gem 'github-pages'
