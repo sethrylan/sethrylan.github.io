@@ -7,5 +7,7 @@ sethrylan.github.io
 
 #### Run with Bundler
 ```rvm install ruby-2.1.1```
+
 ```bundle install```
+
 ```bundle exec jekyll serve --watch --drafts```
