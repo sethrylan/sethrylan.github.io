@@ -30,3 +30,6 @@ projects:
   - label: An Educated Guess
     url:   /bayesian
     text:  Calibrated Probability Assessment   # Redirect to gh-pages branch of sethrylan.github.com/bayesian repo
+  - label: Something Old, Something New
+    url:   /2013/12/15/something-old-something-new.html
+    text:  Age of Buildings in Charleston, South Carolina
