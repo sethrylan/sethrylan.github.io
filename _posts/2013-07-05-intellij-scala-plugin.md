@@ -16,11 +16,14 @@ Assuming you start with a Gradle project using the Scala plugin and clean Intell
 
 1. ```File``` -> ```Import Project```. Select folder with parent build.gradle.
 2. Import project from external model
+  <br>
   <a class="fancybox center" href="{{site.url}}/images/2013-07/intellij-import.png"><img src="{{site.url}}/images/2013-07/intellij-import.png" width="80%"/></a>
 3. Select whether to use the gradle wrapper or a local installation, then finish import with default settings.
 4. Right-click parent folder in project structure, select ```Add Framework Support...```.
+  <br>
   <a class="fancybox center" href="{{site.url}}/images/2013-07/add-framework.png"><img src="{{site.url}}/images/2013-07/add-framework.png" width="80%"/></a>
 5. Depending on your Scala installation, some expected folders may be missing.
+  <br>
   <a class="fancybox center" href="{{site.url}}/images/2013-07/add-scala-framework.png">
   <img src="{{site.url}}/images/2013-07/add-scala-framework.png" width="80%"/></a>
 
