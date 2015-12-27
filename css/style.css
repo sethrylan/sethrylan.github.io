@@ -6,11 +6,13 @@
 .gist-meta a:hover{color:#0e4071 !important}
 .reversed { unicode-bidi:bidi-override; direction: rtl; }
 
+.center {
+  text-align: center
+}
 body {
   font:15px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#111;
 }
-
 header { zoom: 1.1;}
 header h1 { margin-bottom: 5px; }
 header h1 a { color: #494949; font-weight: bold; }
@@ -26,10 +28,10 @@ section p { margin-top: 10px; }
 section h1 { margin-bottom: 15px; }
 section h2 { margin-bottom: 10px; }
 section h2 { margin-bottom: 10px; }
-footer { 
-   bottom: 10px; 
-   width:103%; 
-   margin-left:-50px;  
+footer {
+   bottom: 10px;
+   width:103%;
+   margin-left:-50px;
 }
 footer p { margin-bottom: 5px; }
 .half-width {

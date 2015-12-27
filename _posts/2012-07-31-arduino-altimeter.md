@@ -14,20 +14,20 @@ Using Sparkfun's BMP085 sensor board ([SEN-09694](https://www.sparkfun.com/produ
 
 Testing the sensor was very simple, following the [tutorial](http://www.sparkfun.com/tutorials/253) and [schematic](http://www.sparkfun.com/tutorial/Barometric/Example1-sch.PNG) on Sparkfun's site with breadboard wiring.
 
-<p align="center">
-  <a class="fancybox" href="{{site.url}}/images/2012-07/photo-1-e1343336399105-300x300.jpg"><img src="{{site.url}}/images/2012-07/photo-1-e1343336399105-300x300.jpg" align="center" width="80%"/></a>
+<p class="center">
+  <a class="fancybox" href="{{site.url}}/images/2012-07/photo-1-e1343336399105-300x300.jpg"><img src="{{site.url}}/images/2012-07/photo-1-e1343336399105-300x300.jpg" width="80%"/></a>
 </p>
 
 Now adding the sensor to the data logging shield. Don't forget which pins are which, because those will be facing the PCB.
 
-<p align="center">
-  <a class="fancybox" href="{{site.url}}/images/2012-07/photo-3-e1343336344244-300x300.jpg"><img src="{{site.url}}/images/2012-07/photo-3-e1343336344244-300x300.jpg" align="center" width="40%"/></a>
+<p class="center">
+  <a class="fancybox" href="{{site.url}}/images/2012-07/photo-3-e1343336344244-300x300.jpg"><img src="{{site.url}}/images/2012-07/photo-3-e1343336344244-300x300.jpg" width="40%"/></a>
 </p>
 
 And from the other side, where you can see the SDA, SCL, VCC and ground wires connect. Because we are using i2c for the bmp085 readings, the clock data from the data logging shield isn't available without some modifications. We are capturing milliseconds after start, so it's not very necessary.
 
-<p align="center">
-  <a class="fancybox" href="{{site.url}}/images/2012-07/photo-4-e1343336322226-300x300.jpg"><img src="{{site.url}}/images/2012-07/photo-4-e1343336322226-300x300.jpg" align="center" width="40%"/></a>
+<p class="center">
+  <a class="fancybox" href="{{site.url}}/images/2012-07/photo-4-e1343336322226-300x300.jpg"><img src="{{site.url}}/images/2012-07/photo-4-e1343336322226-300x300.jpg" width="40%"/></a>
 </p>
 
 After connecting to a 4XAA (6VDC) battery source, we can mount this to the Easy Star as seen in the [build tutorial]({{site.url}}/2012/07/17/multiplex-easy-star-build.html).
@@ -47,8 +47,8 @@ where:
 This is a more accurate version of the common heuristic that pressure reduces by 1 millibar per 30ft of elevation. After this crunching we get the graph below, showing that we reached 500m in just under 3 minutes, and you can see what this looks like from the [flight video](http://youtu.be/5M-c3BhNPWc).
 
 
-<p align="center">
-  <a class="fancybox" href="{{site.url}}/images/2012-07/Screenshot-from-2012-07-30-204153.png"><img src="{{site.url}}/images/2012-07/Screenshot-from-2012-07-30-204153.png" align="center" width="80%"/></a>
+<p class="center">
+  <a class="fancybox" href="{{site.url}}/images/2012-07/Screenshot-from-2012-07-30-204153.png"><img src="{{site.url}}/images/2012-07/Screenshot-from-2012-07-30-204153.png" width="80%"/></a>
 </p>
 
 <script type="text/javascript"
@@ -56,6 +56,6 @@ This is a more accurate version of the common heuristic that pressure reduces by
 </script>
 
 ## Arduino Code ##
-	
+
 <iframe style="height: 600px; width: 150%; margin: 0px 0 0px;" allowTransparency="true" src="http://codebender.cc/embed/sketch:12085" frameborder="0"> </iframe>
 
