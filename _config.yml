@@ -7,8 +7,9 @@ lsi:         true
 highlighter: rouge
 permalink:   date
 markdown:    kramdown
-googleanalytics:
-  account:   UA-33138107-1
+feed:
+  path: atom.xml
+ga_tracking_id:   UA-33138107-1
 author:
   name:      Seth Rylan Gainey
   email:     seth@sethrylan.org
@@ -16,7 +17,7 @@ author:
   profiles:
     - label: GitHub
       url:   https://github.com/sethrylan
-      text:  Code and Research Papers
+      text:  Code and Papers
     - label: StackOverflow
       url:   http://stackoverflow.com/users/1585816/seth-rylan
       text:  Questions and Answers 
