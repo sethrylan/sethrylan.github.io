@@ -14,13 +14,8 @@ author:
   name:      Seth Rylan Gainey
   email:     seth@sethrylan.org
   obfuscatedemail: mailto:seth{at}sethrylan{dot}org
-  profiles:
-    - label: GitHub
-      url:   https://github.com/sethrylan
-      text:  Code and Papers
-    - label: StackOverflow
-      url:   http://stackoverflow.com/users/1585816/seth-rylan
-      text:  Questions and Answers 
+  github:          https://github.com/sethrylan
+  stackoverflow:   http://stackoverflow.com/users/1585816/seth-rylan
 navigation:
   - text:    Home
     url:     /index.html
