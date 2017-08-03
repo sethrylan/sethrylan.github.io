@@ -1,94 +1,23 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link href="{{site.url}}/atom.xml" type="application/atom+xml" rel="alternate" title="Posts ATOM Feed">
-    <link rel="stylesheet" href="https://github.com/themes/minimal/stylesheets/styles.css">
-    <link rel="stylesheet" href="{{site.url}}/assets/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/css/style.css">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
   <body>
     <div class="wrapper">
-      <header>
-        <h1><a href="{{ site.url }}">sethrylan.org</a></h1>
 
-        {% for profile in site.author.profiles %}
-        <p class="view"><a href="{{profile.url}}" target="tab">{{profile.label}} <small>{{profile.text}}</small></a></p>
-        {% endfor %}
+      {%include nav.html %}
 
-        <h3>Recent Projects</h3>
-        {% for project in site.projects %}
-        <p class="view"><a href="{{project.url}}">{{project.label}} <small>{{project.text}}</small></a></p>
-        {% endfor %}
-
-        <h3>Recent Posts <a href="{{site.url}}/atom.xml"><img height="12" alt="rss" src="/images/rss_icon&amp;16.png"/></a></h3>
-        {% for post in site.posts limit:5 %}
-        <p class="view"><a href="{{ post.url }}">{{ post.title }} <small>{{ post.date | date_to_string }}</small></a></p>
-        {% endfor %}
-
-        <p>
-        <small><a href="{{ site.url }}/posts.html">All posts</a></small>
-        </p>
-
-        {% if page.repository_url %}
-          <h3>Project Info</h3>
-          <ul>
-            {% if page.zip_url %}
-              <li><a href="{{ page.zip_url }}">Download <strong>ZIP File</strong></a></li>
-            {% endif %}
-            {% if page.tar_url %}
-              <li><a href="{{ page.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-            {% endif %}
-            {% if page.gem_url %}
-              <li><a href="{{ page.gem_url }}">Download <strong>Rubygem</strong></a></li>
-            {% endif %}
-            {% if page.issue_url %}
-              <li><a href="{{ page.issue_url }}">Report<strong>An Issue</strong></a></li>
-            {% endif %}
-            {% if page.repository_url %}
-              <li><a href="{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
-            {% endif %}
-          </ul>
-        {% endif %}
-
-      </header>
       <section id="main">
         {{ content }}
       </section>
-      <footer>
-        <p><small>Built with Jekyll and <a href="https://github.com/sethrylan/sethrylan.github.io">hosted</a> on <a href="http://pages.github.com">GitHub Pages</a> &mdash; Theme by <a href="https://github.com/orderedlist/minimal">orderedlist</a></small></p>
-      </footer>
+
+      {% include footer.html %}
+
+      {% include ga.html %}
+
     </div>
-    
-    <!-- analytics -->
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $(".fancybox").fancybox();			
-      });
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '{{ site.googleanalytics.account }}']);
-      _gaq.push(['_setDomainName', 'sethrylan.org']);
-
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    <script type="text/javascript" src="/assets/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
-    <script src="https://github.com/themes/minimal/javascripts/scale.fix.js"></script>
-
-    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-
-    <!--[if IE 6]>
-    <script>fixScale(document);</script>
-    <![endif]-->
   </body>
 </html>
 

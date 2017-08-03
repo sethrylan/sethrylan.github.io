@@ -1,0 +1,43 @@
+  <header>
+    <h1><a href="{{ site.url }}">sethrylan.org</a></h1>
+
+    {% for profile in site.author.profiles %}
+    <p class="view"><a href="{{profile.url}}" target="tab">{{profile.label}} <small>{{profile.text}}</small></a></p>
+    {% endfor %}
+
+    <h3>Recent Projects</h3>
+    {% for project in site.projects %}
+    <p class="view"><a href="{{project.url}}">{{project.label}} <small>{{project.text}}</small></a></p>
+    {% endfor %}
+
+    <h3>Recent Posts <a href="{{site.url}}/atom.xml"><img height="12" alt="rss" src="/images/rss_icon&amp;16.png"/></a></h3>
+    {% for post in site.posts limit:5 %}
+    <p class="view"><a href="{{ post.url }}">{{ post.title }} <small>{{ post.date | date_to_string }}</small></a></p>
+    {% endfor %}
+
+    <p>
+    <small><a href="{{ site.url }}/posts.html">All posts</a></small>
+    </p>
+
+    {% if page.repository_url %}
+      <h3>Project Info</h3>
+      <ul>
+        {% if page.zip_url %}
+          <li><a href="{{ page.zip_url }}">Download <strong>ZIP File</strong></a></li>
+        {% endif %}
+        {% if page.tar_url %}
+          <li><a href="{{ page.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+        {% endif %}
+        {% if page.gem_url %}
+          <li><a href="{{ page.gem_url }}">Download <strong>Rubygem</strong></a></li>
+        {% endif %}
+        {% if page.issue_url %}
+          <li><a href="{{ page.issue_url }}">Report<strong>An Issue</strong></a></li>
+        {% endif %}
+        {% if page.repository_url %}
+          <li><a href="{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
+        {% endif %}
+      </ul>
+    {% endif %}
+
+  </header>
