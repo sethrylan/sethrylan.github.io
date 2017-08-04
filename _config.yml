@@ -7,12 +7,14 @@ lsi:         true
 highlighter: rouge
 permalink:   date
 markdown:    kramdown
+exclude: ["readme.md"]
+gems: [jekyll-feed, jekyll-sitemap]
 feed:
   path: atom.xml
 ga_tracking_id:   UA-33138107-1
 author:
-  name:      Seth Rylan Gainey
-  email:     seth@sethrylan.org
+  name:            Seth Rylan Gainey
+  email:           mailto:seth@sethrylan.org
   obfuscatedemail: mailto:seth{at}sethrylan{dot}org
   github:          https://github.com/sethrylan
   stackoverflow:   http://stackoverflow.com/users/1585816/seth-rylan
@@ -20,9 +22,9 @@ navigation:
   - text:    Home
     url:     /index.html
 projects:
-  - label: An Educated Guess
+  - title: An Educated Guess
     url:   /bayesian
     text:  Calibrated Probability Assessment   # Redirect to gh-pages branch of sethrylan.github.com/bayesian repo
-  - label: Something Old, Something New
+  - title: Something Old, Something New
     url:   /2013/12/15/something-old-something-new.html
     text:  Age of Buildings in Charleston, South Carolina

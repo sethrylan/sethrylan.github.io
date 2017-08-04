@@ -3,21 +3,20 @@
 
 {% include head.html %}
 
-  <body>
-    <div class="wrapper">
+    <body>
 
-      {%include nav.html %}
+        <div class="wrapper container">
 
-      <section id="main">
-        {{ content }}
-      </section>
+            {% include nav.html %}
+            <section id="main">
+              {{ content }}
+            </section>
+            {% include footer.html %}
 
-      {% include footer.html %}
+            {% include ga.html %}
 
-      {% include ga.html %}
+        </div>
 
-    </div>
+    </body>
 
-  </body>
 </html>
-
