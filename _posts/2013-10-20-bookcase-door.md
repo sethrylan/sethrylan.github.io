@@ -12,7 +12,7 @@ sitemap:
 
 ---------------------------------------
 
-## Materials: ##
+### Materials
 
 Dimensional lumber in nominal sizes.
 
@@ -25,7 +25,7 @@ Dimensional lumber in nominal sizes.
 * sandpaper
 * 1 1/2" rollers
 
-## Tools: ##
+### Tools
 
 * Compound Miter Saw
 * Drill/Driver
@@ -34,7 +34,7 @@ Dimensional lumber in nominal sizes.
 * Level
 * .5" Chisel
 
-## Total Cost: ##
+### Total Cost
 
 * ~$170
 * 20 hours
@@ -44,14 +44,14 @@ Obviously, before you begin the project you should check your local building cod
 Let's get some [jargon](http://www.woodltd.com/pictures/glossary/door-anatomy1.jpg
 ) out of the way. Most doors are [prehung](http://www.lowes.com/pd_519737-42736-LOWOLJW136700179_4294858069__?productId=50019102&Ns): you buy the primed door, hinges and jamb as one unit, with pre-drilled holes for a lock set and strike plate. The unit is shimmed into the rough-framed architrave and screwed into place. Casing is added around the top and sides to cover the gap between the drywall and jamb. Paint and chaulk to taste. This saves enormous costs in house construction because it decreases the steps needed to hang a door and it decreases the accuracy required for rough framing.
 
-## Demolition ##
+### Demolition
 The existing door and jambs must be removed. In my case, the door casing is another layer of 1x4 trim-board, nailed into the drywall and studs with 16 gauge finish nails. I saved and reused these boards in the final product.
 
 <p class="center">
   <a class="fancybox" href="{{site.url}}/images/2013-10/raw_head_casing.jpg"><img src="{{site.url}}/images/2013-10/raw_head_casing.jpg" width="40%"/></a>
 </p>
 
-## Building ##
+### Building
 
 You can see the rough frame in the picture above. I used 1x5 (.75"x4.5") boards to cover the 2x4s; the edges of the 1x5 are flush against the drywall surface on either side. This rough frame is usually not level, which is the reason that prehung doors are sold with a set of shims. Now is the time to correct that. Luckily, mine was only off by 3-4mm from square, which was within my 1/4" width tolerance.
 
@@ -81,7 +81,7 @@ As an alternative to traditional hinges, I experimented with ball-bearing swivel
   <a class="fancybox" href="{{site.url}}/images/2013-10/rollers.jpg"><img src="{{site.url}}/images/2013-10/rollers.jpg" width="40%"/></a>
 </p>
 
-## Finishing ##
+### Finishing
 
 A recessed handhold and cabinet closures add some finish. Carving slots for the hinges and adding a weather stripping tape gives a seamless appearance.
 
@@ -96,7 +96,7 @@ The end result is 14 linear shelf-feet of book space.
 </p>
 
 
-## Lessons Learned ##
+### Lessons Learned
 
 * House framing is a very inexact process.
 * It's much easier to prime and paint wood <i>before</i> you assemble the bookshelf.
