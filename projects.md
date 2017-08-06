@@ -6,12 +6,10 @@ title: Projects
 
 <ul class="projects">
 {% for project in site.projects %}
-    <p>
 	<a href="{{ project.url }}">
-        <h2 class="post-title">{{ project.title }}</h2>
+        <h3 class="post-title">{{ project.title }}</h3>
+	    <p class="post-meta"><small>{{project.text}}</small></p>
     </a>
-    <p class="post-meta"><small>{{project.text}}</small></p>
-    </p>
 {% endfor %}
 </ul>
 
