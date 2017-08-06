@@ -1,6 +1,5 @@
 /* CSS Overrides for hyde.css and poole.css */
 
-
 /* Anchors */
 a {
   color: #39c;
@@ -18,49 +17,59 @@ a:hover {
   color:#069;
 }
 
+header > a {
+  font-size:16px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+header > h3 {
+  font-size:18px;
+}
 
 /* Sidebar */
 .sidebar a {
   color: #39c;
-  text-decoration: none;
 }
 
 .sidebar a:hover { 
+  color:#069;
   text-decoration: none
-}
-
-header p.view {
-  position:static;
 }
 
 .sidebar h1 a { 
   color: #494949; 
-  font-weight: bold; 
 }
 
 /* Sidebar nav */
 .sidebar-nav {
   padding-left: 0;
   list-style: none;
+  font-size-adjust: .5;
 }
 
 .sidebar {
   text-align: left;
-  padding: 2rem 1rem;
+  padding: 4rem 2rem;
   background-color: #fff;
   color: #333;
   border-left: solid 1px #eee;
+}
+
+@media (min-width: 48em) {
+  .sidebar {
+    width: 22rem;
+  }
 }
 
 .sidebar-about h1 {
   color: #333;
   margin-top: 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 2rem;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 1rem;
 }
-
 
 /* Global Resets */
 

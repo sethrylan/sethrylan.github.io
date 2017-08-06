@@ -6,9 +6,6 @@ sitemap:
   changefreq: weekly
 ---
 
-# {{ page.title }}
----------------------------------------
-
 <h3>Earl's Ford, Georgia</h3>
 
 <p class="center">
