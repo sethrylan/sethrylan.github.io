@@ -3,6 +3,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: inline;
+}
+
 /* Sidebar links */
 .sidebar a {
   color: #39c;
