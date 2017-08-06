@@ -1,49 +1,76 @@
-/* Better styles for embedding GitHub Gists */
-.gist {font-size:10px;line-height:14px;margin-bottom:20px;width:100%}
-.gist pre {font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important}
-.gist-meta {font-family:Helvetica,Arial,sans-serif;font-size:10px !important}
-.gist-meta a {color:#26a !important;text-decoration:none}
-.gist-meta a:hover{color:#0e4071 !important}
+a {
+  color: #39c;
+  text-decoration: none;
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: #39c;
+}
+
 .reversed { unicode-bidi:bidi-override; direction: rtl; }
 .center {
   text-align: center
 }
-div.wrapper {
-  width: 90%;
+
+.gist {font-size:10px;line-height:14px;margin-bottom:20px;width:100%}
+
+/*header h1 a { color: #494949; font-weight: bold; }*/
+
+header p.view {
+  position:static;
 }
-section {
-  width: 60%;
+
+a small {
+  font-size:11px;
+  color:#777;
+  margin-top:-0.3em;
+  display:block;
 }
-body {
-  font:15px/1.5 'Open Sans', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color:#111;
+
+html {
+  font-family: 'Open Sans', sans-serif;
 }
-header h1 a { color: #494949; font-weight: bold; }
-header h3 { margin-top: 20px; margin-bottom: 5px; }
-header p.view { margin-bottom: 5px; }
-header p.view small { padding-top: 2px; }
-footer {
-   bottom: 10px;
-   margin-left:-50px;
+
+@media (min-width: 58em) {
+  html {
+   font-size: 16px;
+  }
 }
-.half-width {
-  float: left;
-  width: 200px;
-  list-style: none;
-  padding: 5px;
-  margin: 7px;
-  margin-bottom: 10px;
+
+.small {
+  font-size: 80%;
 }
-.half-width h4 {
-  margin-bottom: 5px;
+
+
+.sidebar {
+  text-align: left;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  color: #333;
+  border-left: solid 1px #eee;
 }
-.half-width ul {
-  padding-left: 0;
+
+.sidebar-about h1 {
+  color: #333;
+  margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.25rem;
+
+  font-size: 2.5rem;
+/*  margin-bottom: 3rem;*/
 }
-.half-width ul li {
-  list-style: inside;
-  font-size: 15px;
+
+/* Sidebar nav */
+.sidebar-nav {
+  /*padding-left: 0;*/
+  /*list-style: none;*/
 }
-.clear-fix {
-  clear: both;
+
+
+@media (min-width: 48em) {
+  .content {
+    max-width: 60rem;
+  }
 }
+

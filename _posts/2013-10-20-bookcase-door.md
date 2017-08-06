@@ -6,10 +6,8 @@ sitemap:
   changefreq: weekly
 ---
 
-# {{ page.title }}
----------------------------------------
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2013-10/final_stitch.jpg"><img src="{{site.url}}/images/2013-10/final_stitch.jpg" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-10/final_stitch.jpg"><img src="{{site.url}}/images/2013-10/final_stitch.jpg" width="40%"/></a>
 </p>
 
 ---------------------------------------
@@ -50,7 +48,7 @@ Let's get some [jargon](http://www.woodltd.com/pictures/glossary/door-anatomy1.j
 The existing door and jambs must be removed. In my case, the door casing is another layer of 1x4 trim-board, nailed into the drywall and studs with 16 gauge finish nails. I saved and reused these boards in the final product.
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2013-10/raw_head_casing.jpg"><img src="{{site.url}}/images/2013-10/raw_head_casing.jpg" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-10/raw_head_casing.jpg"><img src="{{site.url}}/images/2013-10/raw_head_casing.jpg" width="40%"/></a>
 </p>
 
 ## Building ##
@@ -60,7 +58,7 @@ You can see the rough frame in the picture above. I used 1x5 (.75"x4.5") boards 
 Rebuild the top and hinge-side casing, then patch the drywall on the other side. The bookshelf will have a vertical length of casing attached, which will cover the ~2" clearance needed to swing out the bookcase.
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2013-10/rebuilt_casing.jpg"><img src="{{site.url}}/images/2013-10/rebuilt_casing.jpg" width="60%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-10/rebuilt_casing.jpg"><img src="{{site.url}}/images/2013-10/rebuilt_casing.jpg" width="40%"/></a>
 </p>
 
 Now you can test the footprint dimensions of your bookcase using a piece of cardboard. I choose a footprint of 23.5"x7.5", which allowed me to build the entire shelf with 1x8 dimensional lumber.
@@ -72,7 +70,7 @@ Now you can test the footprint dimensions of your bookcase using a piece of card
 Optionally, you can add a cat door with decorative trim.
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2013-10/cat_door.jpg"><img src="{{site.url}}/images/2013-10/cat_door.jpg" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-10/cat_door.jpg"><img src="{{site.url}}/images/2013-10/cat_door.jpg" width="40%"/></a>
 </p>
 
 The bookshelf alone will weight ~50lbs. Even after securing the hinges into the door frame with 2-2.5" inch screws, the hinges can only provide stability and should not be load-bearing. Chisel out the hinge opening and add two rollers under the bottom shelf.
@@ -80,7 +78,7 @@ The bookshelf alone will weight ~50lbs. Even after securing the hinges into the 
 As an alternative to traditional hinges, I experimented with ball-bearing swivels on the top and bottom. The swivel design has two drawbacks: the increased vertical clearance is noticeable, and the central axis requires more clearance on the supported side of the door, which cannot be concealed by casing. And although small swivels are load-rated at 300-500 pounds, they are designed for compression, not tensile/shear strain that results from a an off-center load. [SOSS](http://www.soss.com/soss_invisible_hinge_model_100/?DepartmentId=1721) and [Murphy Door](http://www.themurphydoor.com/store/hardware-kits/flush-mount-hinge-kit) also make suitable products, but at $100-130 per set.
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2013-10/rollers.jpg"><img src="{{site.url}}/images/2013-10/rollers.jpg" width="60%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-10/rollers.jpg"><img src="{{site.url}}/images/2013-10/rollers.jpg" width="40%"/></a>
 </p>
 
 ## Finishing ##
@@ -88,13 +86,13 @@ As an alternative to traditional hinges, I experimented with ball-bearing swivel
 A recessed handhold and cabinet closures add some finish. Carving slots for the hinges and adding a weather stripping tape gives a seamless appearance.
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2013-10/details.jpg"><img src="{{site.url}}/images/2013-10/details.jpg" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-10/details.jpg"><img src="{{site.url}}/images/2013-10/details.jpg" width="40%"/></a>
 </p>
 
 The end result is 14 linear shelf-feet of book space.
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2013-10/final.jpg"><img src="{{site.url}}/images/2013-10/final.jpg" width="60%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2013-10/final.jpg"><img src="{{site.url}}/images/2013-10/final.jpg" width="40%"/></a>
 </p>
 
 

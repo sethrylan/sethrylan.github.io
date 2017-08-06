@@ -6,16 +6,13 @@ sitemap:
   changefreq: weekly
 ---
 
-# {{ page.title }}
----------------------------------------
-
 Using Sparkfun's BMP085 sensor board ([SEN-09694](https://www.sparkfun.com/products/9694)), I put together some quick Arduino code to measure temperature-adjusted barometric pressure, store the data on an SD card using Adafruit's data logger shield ([v1.0](https://www.adafruit.com/products/243)), and then calculate altitude. This is a pretty simple project. In fact, the biggest challenge was getting a suitable formula for calculating altitude from atmospheric pressure.
 
 
 Testing the sensor was very simple, following the [tutorial](http://www.sparkfun.com/tutorials/253) and [schematic](http://www.sparkfun.com/tutorial/Barometric/Example1-sch.PNG) on Sparkfun's site with breadboard wiring.
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2012-07/photo-1-e1343336399105-300x300.jpg"><img src="{{site.url}}/images/2012-07/photo-1-e1343336399105-300x300.jpg" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2012-07/photo-1-e1343336399105-300x300.jpg"><img src="{{site.url}}/images/2012-07/photo-1-e1343336399105-300x300.jpg" width="40%"/></a>
 </p>
 
 Now adding the sensor to the data logging shield. Don't forget which pins are which, because those will be facing the PCB.
@@ -48,7 +45,7 @@ This is a more accurate version of the common heuristic that pressure reduces by
 
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2012-07/Screenshot-from-2012-07-30-204153.png"><img src="{{site.url}}/images/2012-07/Screenshot-from-2012-07-30-204153.png" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2012-07/Screenshot-from-2012-07-30-204153.png"><img src="{{site.url}}/images/2012-07/Screenshot-from-2012-07-30-204153.png" width="40%"/></a>
 </p>
 
 <script type="text/javascript"

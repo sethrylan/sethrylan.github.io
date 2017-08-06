@@ -6,10 +6,8 @@ sitemap:
   changefreq: weekly
 ---
 
-# {{ page.title }}
----------------------------------------
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2012-07/IMG_0919.jpg"><img src="{{site.url}}/images/2012-07/IMG_0919.jpg" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2012-07/IMG_0919.jpg"><img src="{{site.url}}/images/2012-07/IMG_0919.jpg" width="40%"/></a>
 </p>
 
 ---------------------------------------
@@ -20,7 +18,7 @@ sitemap:
 Where possible, I've listed an online retailer, but some of the generic items may require searching.
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2012-07/IMG_0847.jpg"><img src="/images/2012-07/IMG_0847.jpg" width="50%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2012-07/IMG_0847.jpg"><img src="/images/2012-07/IMG_0847.jpg" width="40%"/></a>
 </p>
 
 * [Easy Star Electric Kit](http://www.amazon.com/gp/product/B000BMSF22/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000BMSF22&linkCode=as2&tag=sethrylan-20)
@@ -62,13 +60,13 @@ The parts in the EasyStar kit I received are very well made with only one piece 
 
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2012-07/IMG_08651-e1342486003125-300x300.jpg"><img src="/images/2012-07/IMG_08651-e1342486003125-300x300.jpg" width="50%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2012-07/IMG_08651-e1342486003125-300x300.jpg"><img src="/images/2012-07/IMG_08651-e1342486003125-300x300.jpg" width="40%"/></a>
 </p>
 
 This is what the tail fin looks like with the rudder removed, and after correction with hot air. A hair dryer (or a very low setting heat gun) will work. Ease off on the heat before you see the bubbling in this picture.
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2012-07/IMG_0866-e1342406921799-300x300.jpg"><img src="/images/2012-07/IMG_0866-e1342406921799-300x300.jpg" width="50%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2012-07/IMG_0866-e1342406921799-300x300.jpg"><img src="/images/2012-07/IMG_0866-e1342406921799-300x300.jpg" width="40%"/></a>
 </p>
 
 Use the same technique on the wings to reduce the effective dihedral angle from the upward cant of the  <a href="http://en.wikipedia.org/wiki/Dihedral_(aircraft)#Polyhedral">polyhedral</a> wings.

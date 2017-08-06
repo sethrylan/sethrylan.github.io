@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
-{% include head.html %}
+  {% include head.html %}
 
-    <body>
+  <body class="layout-reverse"">
 
-        <div class="wrapper container">
+    {% include sidebar.html %}
 
-            {% include nav.html %}
-            <section id="main">
-              {{ content }}
-            </section>
-            {% include footer.html %}
+    <div class="content container">
+      {{ content }}
+    </div>
 
-            {% include ga.html %}
+    {% include footer.html %}
+    {% include ga.html %}
 
-        </div>
-
-    </body>
-
+  </body>
 </html>

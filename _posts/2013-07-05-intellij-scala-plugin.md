@@ -6,10 +6,6 @@ sitemap:
   changefreq: weekly
 ---
 
-# {{ page.title }}
-
----------------------------------------
-
 The [IntelliJ Scala plugin v0.13.286](http://blog.jetbrains.com/scala/) does a few things which were previously manual steps. This means that following the old documentation can lead to a few unhelpful error messages, when all you want is syntax highlighting, autocomplete and the occassional REPL support.
 
 Assuming you start with a Gradle project using the Scala plugin and clean IntelliJ IDEA 12.1.4 install, the steps to add Scala support are:

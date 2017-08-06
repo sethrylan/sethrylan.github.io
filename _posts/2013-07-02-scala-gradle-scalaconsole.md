@@ -6,10 +6,6 @@ sitemap:
   changefreq: weekly
 ---
 
-# {{ page.title }}
-
----------------------------------------
-
 The usual build tool for Scala is [SBT](http://www.scala-sbt.org/), but I've been trying to stay consistent with Gradle builds. Of course, the most lacking feature is a decent REPL for manipulating the main/test classes, and there appear to be two possible solutions to this problem.
 
 --------------------------------------------------

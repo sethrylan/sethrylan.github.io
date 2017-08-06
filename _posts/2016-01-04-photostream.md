@@ -6,11 +6,8 @@ sitemap:
   changefreq: weekly
 ---
 
-# {{ page.title }}
----------------------------------------
-
-Fox Theatre, Detroit
+<h3>Fox Theatre, Detroit</h3>
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2016-01/fox_theatre.jpg"><img src="{{site.url}}/images/2016-01/fox_theatre.jpg" width="80%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2016-01/fox_theatre.jpg"><img src="{{site.url}}/images/2016-01/fox_theatre.jpg" width="40%"/></a>
 </p>
