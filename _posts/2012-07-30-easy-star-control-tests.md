@@ -6,10 +6,6 @@ sitemap:
   changefreq: weekly
 ---
 
-# {{ page.title }}
-
----------------------------------------
-
 [Flight Test #1 &mdash; Short Take-Off](http://youtu.be/SxySpUh53OY)
 
 <iframe style="height: 360px; width: 640px; border:0" src="http://www.youtube.com/embed/SxySpUh53OY?feature=player_detailpage"></iframe>

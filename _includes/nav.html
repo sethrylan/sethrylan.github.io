@@ -1,10 +1,7 @@
   <header>
-    <h1><a href="{{ site.url }}">sethrylan.org</a></h1>
-
-    <p class="view"><a href="{{site.author.github}}" target="tab">GitHub <i class="fa fa-github fa-2"></i> <small>Code and Papers</small></a></p>
+    <p><a href="{{site.author.github}}" target="tab">GitHub <i class="fa fa-github fa-2"></i> <small>Code and Papers</small></a></p>
     <p class="view"><a href="{{site.author.stackoverflow}}" target="tab">StackOverflow <i class="fa fa-stack-overflow fa-2"></i> <small>Questions and Answers</small></a></p>
 
-    <h3>Recent Projects</h3>
     {% for project in site.projects limit:2 %}
     <p class="view"><a href="{{project.url}}">{{project.title}} <small>{{project.text}}</small></a></p>
     {% endfor %}

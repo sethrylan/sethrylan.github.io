@@ -1,8 +1,11 @@
 ---
 layout: default
-title: sethrylan.org
+title: Typing, Fast and Slow
 ---
 
-![](/images/beachy.jpg)
-
-[{{site.author.name}}]({{site.author.email}}). I make things and live in Charleston, South Carolina.
+<div class="center">
+<img src="/images/beachy.jpg">
+<p>
+	<a href="{{site.author.email}}">{{site.author.name}}</a> I make things and live in Charleston, South Carolina.
+</p>
+</div>
