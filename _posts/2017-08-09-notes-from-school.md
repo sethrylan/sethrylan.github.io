@@ -14,18 +14,6 @@ The life of an average file is tedious and brief[^tediousandbrief], and not even
 ##### On Protocols
 Even if a protocol seems great on paper, it may not be used for lots of reasons.[^csma]
 
-##### On optimization
-"Put broadly, the object of study in mathematics is truth; the object of study in computer science is complexity. [I]t's not enough of a problem to have a solution, if that problem is intractable."[^toliveby]
-
-Optimization works in cycles:
-1. Exploit [assumptions](dl.acm.org/citation.cfm?id=313859) and [amortization](https://www.youtube.com/watch?v=3MpzavN3Mco).
-1. Divide and conquer until re-computation takes too long.
-1. Parallize until [Amdahl's](https://en.wikipedia.org/wiki/Amdahl%27s_law).
-1. Dynamic programming (parenthesiz-ation , memo-ization) until you need to go back to #1.
-
-##### On Distributed Systems
-In [distributed systems](https://github.com/aphyr/distsys-class), it is impossible to tell whether a system is dead or arbitrarily delayed.
-
 ##### On Queueing
 $P_k$ (number in system at time k), $\bar{N}$ (mean number in system), and $\bar{T}$ (mean time in system) are independent of service disciplines, but the variance and distribution of T are not. I.e., $T_{FCFS} = T_{LCFS}$, but $var_{T,FCFS} \neq var_{T,LCFS}$ since $var = E[T^2] - E^2[T]$.
 
@@ -44,6 +32,18 @@ Nothing cannot be fixed with the words "assume i.i.d."
 | recurse on input: work on way up     | insertion sort               | merge sort  |
 | recurse on output: work on way down  | selection sort               |   Quicksort (kind of) |
  -->
+
+##### On optimization
+"Put broadly, the object of study in mathematics is truth; the object of study in computer science is complexity. [I]t's not enough of a problem to have a solution, if that problem is intractable."[^toliveby]
+
+Optimization works in cycles:
+1. Exploit [assumptions](dl.acm.org/citation.cfm?id=313859) and [amortization](https://www.youtube.com/watch?v=3MpzavN3Mco).
+1. Divide and conquer until re-computation takes too long.
+1. Parallize until [Amdahl's](https://en.wikipedia.org/wiki/Amdahl%27s_law).
+1. Dynamic programming (parenthesiz-ation , memo-ization) until you need to go back to #1.
+
+##### On Distributed Systems
+In [distributed systems](https://github.com/aphyr/distsys-class), it is impossible to tell whether a system is dead or arbitrarily delayed.
 
 ##### On Data
 Curse of Multidimensionality: as the number of attributes/dimensions in a dataset increases, the average distance becomes larger, making it more difficult to detect outliers[^nimbus] and leading to overfitted models.[^multidimensionality]
