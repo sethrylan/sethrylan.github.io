@@ -4,12 +4,12 @@ title: Grad School (the good parts)
 ---
 
 ##### On Abstractions
-"Systems designers are abstraction merchants."[^abstractions] We create and sell abstractions.
+"Systems designers are abstraction merchants."[^abstractions]
 
 "Nothing is so difficult it cannot be solved by another level of indirection."[^wheeler]
 
 ##### On Files
-The life of an average file is tedious and brief[^tediousandbrief], and not even a file[^notafile]. Sequential access is rarely sequential with multiple threads.
+The life of an average file is tedious[^notafile] and brief[^tediousandbrief]. Sequential access is rarely sequential with multiple threads.
 
 ##### On Protocols
 Even if a protocol seems great on paper, it may not be used for lots of reasons.[^csma]
