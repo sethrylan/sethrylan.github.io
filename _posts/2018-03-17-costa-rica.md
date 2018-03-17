@@ -20,6 +20,6 @@ sitemap:
 
 <p class="center">
   <video width="40%" autoplay loop>
-    <source src="{{site.url}}/images/2018-03/manuel-antonio.mov" type="video/mp4">
+    <source src="{{site.url}}/images/2018-03/manuel-antonio.mp4" type="video/mp4">
   </video>
 </p>
