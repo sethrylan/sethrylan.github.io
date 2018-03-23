@@ -34,10 +34,10 @@ Nothing cannot be fixed with the words "assume i.i.d."
  -->
 
 ##### On optimization
-"Put broadly, the object of study in mathematics is truth; the object of study in computer science is complexity. [I]t's not enough of a problem to have a solution, if that problem is intractable."[^toliveby]
+"Put broadly, the object of study in mathematics is truth; the object of study in computer science is complexity. [I]t's not enough for a problem to have a solution, if that problem is intractable."[^toliveby]
 
 Optimization works in cycles:
-1. Exploit [assumptions](dl.acm.org/citation.cfm?id=313859) and [amortization](https://www.youtube.com/watch?v=3MpzavN3Mco).
+1. Exploit [assumptions](https://dl.acm.org/citation.cfm?id=313859) and [amortization](https://www.youtube.com/watch?v=3MpzavN3Mco).
 1. Divide and conquer until re-computation takes too long.
 1. Parallize until [Amdahl's](https://en.wikipedia.org/wiki/Amdahl%27s_law).
 1. Dynamic programming (parenthesiz-ation , memo-ization) until state space complexity takes you back to #1.
