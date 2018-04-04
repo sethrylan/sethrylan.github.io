@@ -1,11 +1,16 @@
 <html>
 
-
 <script type="text/javascript">
-fetch('adventures.txt')
+
+var url = new URL(window.location.href),
+    start = parseInt(url.searchParams.get('start')) || 0,
+    limit = parseInt(url.searchParams.get('limit')) || 5;
+
+fetch('http://sethrylan.org/adventures.txt')
   .then(response => response.text())
-  .then(text => console.log(text))
-  // outputs the content of the text file
+  // .then(rawtext => rawtext.split('\n\n'))
+  // .then(split => console.log(split.slice(1,2)))
+  .then(rawtext => rawtext.split('\n\n').slice(start,start+limit).join('\n'))
+  .then(text => document.write(text))
 </script>
 </html>
-
