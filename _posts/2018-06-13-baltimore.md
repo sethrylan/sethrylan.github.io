@@ -9,14 +9,14 @@ sitemap:
 <h3>Baltimore</h3>
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2018-06/IMG_8395.jpg"><img src="{{site.url}}/images/2018-03/IMG_8395.jpg" width="40%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2018-06/IMG_8395.jpg"><img src="{{site.url}}/images/2018-06/IMG_8395.jpg" width="40%"/></a>
 </p>
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2018-06/IMG_9429.jpg"><img src="{{site.url}}/images/2018-03/IMG_9429.jpg" width="40%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2018-06/IMG_9429.jpg"><img src="{{site.url}}/images/2018-06/IMG_9429.jpg" width="40%"/></a>
 </p>
 
 <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2018-06/IMG_9027.jpg"><img src="{{site.url}}/images/2018-03/IMG_9027.jpg" width="40%"/></a>
+  <a class="fancybox" href="{{site.url}}/images/2018-06/IMG_9027.jpg"><img src="{{site.url}}/images/2018-06/IMG_9027.jpg" width="40%"/></a>
 </p>
 
