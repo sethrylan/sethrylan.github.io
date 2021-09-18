@@ -6,6 +6,15 @@ sitemap:
   changefreq: weekly
 ---
 
+
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
+<style>
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+
+
 Choropleth map of the age of structures in the City of Charleston, [Old and Historic Districts](http://www.charleston-sc.gov/DocumentCenter/View/1270).
 
 See similar projects for [Brooklyn](http://bklynr.com/block-by-block-brooklyns-past-and-present/), [Portland](http://www.theatlanticcities.com/neighborhoods/2013/07/vivid-mesmerizing-map-age-buildings-portland/6196/) and the [Netherlands](http://dev.citysdk.waag.org/buildings/).
