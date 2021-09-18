@@ -10,4 +10,4 @@ Choropleth map of the age of structures in the City of Charleston, [Old and Hist
 
 See similar projects for [Brooklyn](http://bklynr.com/block-by-block-brooklyns-past-and-present/), [Portland](http://www.theatlanticcities.com/neighborhoods/2013/07/vivid-mesmerizing-map-age-buildings-portland/6196/) and the [Netherlands](http://dev.citysdk.waag.org/buildings/).
 
-<iframe width='100%' height='900' style='border:0' src='https://a.tiles.mapbox.com/v3/sethrylan.gi7o1lid/mm/zoompan,zoomwheel,geocoder,legend,share.html?secure=1#14/32.7871/-79.9451'></iframe>
+<iframe width='100%' height='900' src="https://api.mapbox.com/styles/v1/sethrylan/cktp5sr5n0kee17t3bneo23wg.html?title=false&access_token=pk.eyJ1Ijoic2V0aHJ5bGFuIiwiYSI6IlUzM0JHTEEifQ.JYoyI_v_M3aeZTiPD_7KyA&zoomwheel=false#9/37.78/-122.4241" style="border:none;"></iframe>
