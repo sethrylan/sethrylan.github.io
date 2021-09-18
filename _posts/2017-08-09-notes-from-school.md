@@ -18,7 +18,7 @@ Even if a protocol seems great on paper, it may not be used for lots of reasons.
 
 Little's Law has bizarre and counter-intuitive conclusions:
 
-> Suppose bank customers take an average of 10 minutes to serve and they arrive at the rate of 5.8 per hour. With 1 teller, the average wait time is over 5 hours. With 2 tellers, it is <b>3 minutes</b>
+> Suppose bank customers take an average (exponential distribution) of 10 minutes to serve and they arrive at the rate of 5.8 per hour. With 1 teller, the average wait time is over 5 hours. With 2 tellers, it is <b>3 minutes</b>.
 
 $P_k$ (number in system at time k), $\bar{N}$ (mean number in system), and $\bar{T}$ (mean time in system) are independent of service disciplines, but the variance and distribution of T are not. I.e., $T_{FCFS} = T_{LCFS}$, but $var_{T,FCFS} \neq var_{T,LCFS}$ since $var = E[T^2] - E^2[T]$.
 
