@@ -27,7 +27,7 @@ Poisson only works if your events are truly independent.[^poisson]
 Nothing cannot be fixed with the words "assume i.i.d."
 
 <!-- <p class="center">
-  <a class="fancybox" href="{{site.url}}/images/2017-08/disc-cont.svg"><img src="{{site.url}}/images/2017-08/disc-cont.svg" width="40%"/></a>
+  <a class="fancybox" href="/images/2017-08/disc-cont.svg"><img src="/images/2017-08/disc-cont.svg" width="40%"/></a>
 </p>
  -->
 <!-- ##### On Sorting
