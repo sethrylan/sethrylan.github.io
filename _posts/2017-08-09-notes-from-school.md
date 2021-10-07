@@ -4,27 +4,22 @@ title: Grad School (the good parts)
 ---
 
 ##### On Abstractions
-"Systems designers are abstraction merchants."[^abstractions]
+> Systems designers are abstraction merchants.[^abstractions]
 
-"Nothing is so difficult it cannot be solved by another level of indirection."[^wheeler]
+> Nothing is so difficult it cannot be solved by another level of indirection.[^wheeler]
 
 ##### On Files
 The life of an average file is tedious[^notafile] and brief[^tediousandbrief]. Sequential access is rarely sequential with multiple threads.
 
-##### On Protocols
-Even if a protocol seems great on paper, it may not be used for lots of reasons.[^csma]
-
 ##### On Queueing
 
-Little's Law has bizarre and counter-intuitive conclusions:
+Little's Law has bizarre and counter-intuitive conclusions. Suppose bank customers take an average (exponential distribution) of 10 minutes to serve and they arrive at the rate of 5.8 per hour. With 1 teller, the average wait time is over 5 hours. With 2 tellers, it is <b>3 minutes</b>.
 
-> Suppose bank customers take an average (exponential distribution) of 10 minutes to serve and they arrive at the rate of 5.8 per hour. With 1 teller, the average wait time is over 5 hours. With 2 tellers, it is <b>3 minutes</b>.
+Anything can be fixed with the words "assume i.i.d."
 
 $P_k$ (number in system at time k), $\bar{N}$ (mean number in system), and $\bar{T}$ (mean time in system) are independent of service disciplines, but the variance and distribution of T are not. I.e., $T_{FCFS} = T_{LCFS}$, but $var_{T,FCFS} \neq var_{T,LCFS}$ since $var = E[T^2] - E^2[T]$.
 
 Poisson only works if your events are truly independent.[^poisson]
-
-Nothing cannot be fixed with the words "assume i.i.d."
 
 <!-- <p class="center">
   <a class="fancybox" href="/images/2017-08/disc-cont.svg"><img src="/images/2017-08/disc-cont.svg" width="40%"/></a>
@@ -38,14 +33,16 @@ Nothing cannot be fixed with the words "assume i.i.d."
 | recurse on output: work on way down  | selection sort               |   Quicksort (kind of) |
  -->
 
-##### On optimization
-"Put broadly, the object of study in mathematics is truth; the object of study in computer science is complexity. [I]t's not enough for a problem to have a solution, if that problem is intractable."[^toliveby]
+##### On Optimization
+> Put broadly, the object of study in mathematics is truth; the object of study in computer science is complexity. [I]t's not enough for a problem to have a solution, if that problem is intractable.[^toliveby]
+
+Everyone is afraid to touch [database] optimizers, because no one knows how they work.
 
 Optimization works in cycles:
 1. Exploit [assumptions](https://dl.acm.org/citation.cfm?id=313859) and [amortization](https://www.youtube.com/watch?v=3MpzavN3Mco).
 1. Divide and conquer until re-computation takes too long.
-1. Parallize until [Amdahl's](https://en.wikipedia.org/wiki/Amdahl%27s_law).
-1. Dynamic programming (parenthesiz-ation , memo-ization) until state space complexity takes you back to #1.
+1. Parallelize until [Amdahl's](https://en.wikipedia.org/wiki/Amdahl%27s_law).
+1. Dynamic programming (parenthesization , memoization) until state space complexity takes you back to #1.
 
 ##### On Distributed Systems
 In [distributed systems](https://github.com/aphyr/distsys-class), it is impossible to tell whether a system is dead or arbitrarily delayed.
@@ -61,9 +58,6 @@ Tricks in Data Analysis:
 
 Data-ink ratio = $\frac{data\ ink}{total\ ink}$
 
-##### On Databases
-Everyone is afraid to touch optimizers, because no one knows how they work.
-
 ##### On Tools
 Typing skill and comprehension are independent. Concurrent tasking does not affect typing much.[^salthouse]
 
@@ -77,24 +71,27 @@ PMF @<{bin}<< PDF;
 $$
 [^distributions]
 
-"A long list is no list".[^bobbell]
+> A long list is no list. [^bobbell]
 
-"When in doubt, draw it out."[^drawitout]
+> When in doubt, draw it out. [^drawitout]
 
-##### On Process
+##### On Process and Organization
 After accounting for size, other code complexity metrics become noise.[^noise]
 
 In an sufficiently regulated engineering process, the non-work deliverables themselves take on technical rigor with little connection to the product.
 
 "The second is that people tend to inconsistency. The prediction is that methodologies requiring disciplined consistency are fragile in practice... The fourth is that people like to be good citizens, are good at looking around and taking initiative. These combine to form that common success factor, «a few good people stepped in at key moments.»"[^cockburn]
 
-##### On Human Condition
+##### On Human Reliability
 Human reliability is a log normal distribution.[^nureg]
 
-"The only risks in life are the people and things you depend on."[^bobbell] [^willoughby]
+> The only risks in life are the people and things you depend on.[^bobbell] [^willoughby]
+
+##### On Protocols
+Even if a protocol seems great on paper, it may not be used for lots of reasons.[^csma]
 
 ##### On Psychophysics
-"Sound exists in time and over space, vision exists in space and over time." [^mountfordgaver]
+> Sound exists in time and over space, vision exists in space and over time. [^mountfordgaver]
 
 ---
 
