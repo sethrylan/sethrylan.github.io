@@ -80,7 +80,7 @@ After accounting for size, other code complexity metrics become noise.[^noise]
 
 In an sufficiently regulated engineering process, the non-work deliverables themselves take on technical rigor with little connection to the product.
 
-"The second is that people tend to inconsistency. The prediction is that methodologies requiring disciplined consistency are fragile in practice... The fourth is that people like to be good citizens, are good at looking around and taking initiative. These combine to form that common success factor, «a few good people stepped in at key moments.»"[^cockburn]
+> The second is that people tend to inconsistency. The prediction is that methodologies requiring disciplined consistency are fragile in practice... The fourth is that people like to be good citizens, are good at looking around and taking initiative. These combine to form that common success factor, «a few good people stepped in at key moments.»[^cockburn]
 
 ##### On Human Reliability
 Human reliability is a log normal distribution.[^nureg]
