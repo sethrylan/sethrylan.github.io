@@ -7,7 +7,7 @@ packages:
       action: remove
 files:
     - path: /var/www/html/index.php
-      source: https://sethrylan.org/sscmt/index.php
+      source: https://sethrylan.org/sscmt/index.txt
       owner: root
       group: root
       permissions: 0644
