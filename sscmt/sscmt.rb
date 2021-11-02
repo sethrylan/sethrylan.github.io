@@ -24,7 +24,7 @@ def fetch(uri)
   puts "Fetching #{uri}..." if $options[:verbose]
   FileUtils.mkdir_p SCRIPT_DIR
   file = SCRIPT_DIR + uri.split('/').last
-  open(files, 'wb') do |file_resource|
+  open(file, 'wb') do |file_resource|
     URI.open(uri) do |uri_resource|
       file_resource.write(uri_resource.read)
     end
