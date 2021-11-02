@@ -1,0 +1,14 @@
+after: 'curl -s localhost'
+packages:
+    - name: php
+    - name: libapache2-mod-php
+    - name: apache2
+    - name: git
+      action: remove
+files:
+    - path: /var/www/html/index.php
+      source: https://sethrylan.org/sscmt/index.php
+      owner: root
+      group: root
+      permissions: 0644
+      after: 'rm -f /var/www/html/index.html && service apache2 start && service apache2 reload'
