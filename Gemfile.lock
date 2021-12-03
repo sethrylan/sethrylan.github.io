@@ -283,7 +283,7 @@ DEPENDENCIES
   jekyll-paginate
 
 RUBY VERSION
-   ruby 2.6.2p47
+   ruby 2.7.3p183
 
 BUNDLED WITH
    1.17.2
