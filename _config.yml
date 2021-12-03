@@ -9,7 +9,7 @@ permalink:   date
 markdown:    kramdown
 exclude: ["readme.md", "README.md"]
 version: 2.0.1
-gems: [jekyll-feed, jekyll-sitemap]
+plugins: [jekyll-feed, jekyll-sitemap]
 description: Typing, Fast and Slow
 feed:
   path: atom.xml

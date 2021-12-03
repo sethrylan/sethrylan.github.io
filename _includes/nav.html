@@ -10,7 +10,7 @@
     <h3>Recent Posts <a href="/atom.xml">
       <i class="fa fa-rss fa-2"></i>
     </h3>
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:7 %}
     <a href="{{ post.url }}">{{ post.title }} <small>{{ post.date | date_to_string }}</small></a>
     {% endfor %}
     <small><a href="/posts.html">All posts</a></small>
