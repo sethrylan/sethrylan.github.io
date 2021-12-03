@@ -8,7 +8,7 @@ title: Things I learned in 2021
 
 1. Company Demonyms: [Googler](https://en.wiktionary.org/wiki/Googler) (also Noogler, Xoogler, and [Doogler](https://blog.google/inside-google/life-at-google/working-home-ruff-dooglers-make-it-little-better/)), [Microsoftie](https://en.wiktionary.org/wiki/Microsoftie), [Tweep](https://careers.twitter.com/en/tweep-life.html), [Amazonian](https://www.amazon.jobs/amazonians), [Zoomie](https://blog.zoom.us/how-zoomies-balance-working-from-home-during-a-pandemic/), [Hubber](https://github.com/about/diversity/communities-of-belonging), [Oktanauts](https://twitter.com/okta/status/1338556408980180993), [Shopifolk](https://twitter.com/goepoch/status/1138341366373601280), [Pinployee](https://www.eonline.com/news/555282/trendsetters-at-work-pinterest), [Twilion](https://www.twilio.com/blog/2015/05/whats-it-like-to-be-a-twilion.html), [Sentaur](https://blog.sentry.io/2020/12/21/sentaurs-and-celebrations).
 
-1. All animals combined [weight](https://www.nature.com/articles/s41586-020-3010-5.epdf) 4 gigatonnes. All [plastics](https://github.com/milo-lab/anthropogenic_mass), 8GT. 
+1. All animals combined [weigh](https://www.nature.com/articles/s41586-020-3010-5.epdf) 4 gigatonnes. All [plastics](https://github.com/milo-lab/anthropogenic_mass), 8GT. 
 
 1. Sperm whale oil was [used as an automatic transmission oil](https://www.nytimes.com/1975/04/17/archives/transmission-problems-in-cars-linked-to-ban-on-whale-killing.html) additive until the 1970s.
 
