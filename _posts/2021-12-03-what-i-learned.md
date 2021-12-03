@@ -10,7 +10,7 @@ title: Things I learned in 2021
 
 1. All animals combined [weight](https://www.nature.com/articles/s41586-020-3010-5.epdf) 4 gigatons. All [plastics](https://github.com/milo-lab/anthropogenic_mass), 8GT. 
 
-1. Sperm whale oil was [used as an automatic transmission](https://www.nytimes.com/1975/04/17/archives/transmission-problems-in-cars-linked-to-ban-on-whale-killing.html) oil additive until the 1970s.
+1. Sperm whale oil was [used as an automatic transmission oil](https://www.nytimes.com/1975/04/17/archives/transmission-problems-in-cars-linked-to-ban-on-whale-killing.html) additive until the 1970s.
 
 1. BP runs their own [fiber backbone](https://www.infrapedia.com/app) through the Gulf of Mexico.
 
