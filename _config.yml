@@ -13,7 +13,6 @@ plugins: [jekyll-feed, jekyll-sitemap]
 description: Typing, Fast and Slow
 feed:
   path: atom.xml
-ga_tracking_id:   UA-33138107-1
 author:
   name:            Seth Rylan Gainey
   email:           mailto:seth@sethrylan.org
