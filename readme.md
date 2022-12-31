@@ -5,5 +5,7 @@ sethrylan.github.io
 
 #### Run with Bundler
 
-```bundle install```
-```bundle exec jekyll serve --watch --drafts```
+```console
+bundle install
+bundle exec jekyll serve --watch --drafts
+```
