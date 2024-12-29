@@ -1,6 +1,5 @@
   <header>
     <a href="{{site.author.github}}" target="tab">GitHub <i class="fa fa-github fa-2"></i> <small>Code and Papers</small></a>
-    <a href="{{site.author.stackoverflow}}" target="tab">StackOverflow <i class="fa fa-stack-overflow fa-2"></i> <small>Questions and Answers</small></a>
 
     {% for project in site.projects limit:2 %}
     <a href="{{project.url}}">{{project.title}} <small>{{project.text}}</small></a>
