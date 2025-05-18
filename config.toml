@@ -38,12 +38,12 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
   [[menu.main]]
     pageRef="posts"
-    name = 'Posts'
+    name = 'posts'
     url = '/posts/'
     weight = 20
   [[menu.main]]
     pageRef="bio"
-    name = 'Bio'
+    name = 'bio'
     url = '/bio/'
     weight = 30
 
@@ -103,3 +103,28 @@ url = "/index.xml"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[[params.projects]]
+title = "An Educated Guess"
+description = "Calibrated Probability Assessment"
+url = "/bayesian"
+
+[[params.projects]]
+title = "SLO Burn"
+description = "Multi-window SLO Burn Rate Alerting"
+url = "/slo-burn"
+
+[[params.projects]]
+title = "Something Old, Something New"
+description = "Age of Buildings in Charleston, South Carolina"
+url = "/posts/2013-12-15-something-old-something-new"
+
+# [[params.projects]]
+# title = "readis"
+# description = "Pronounced like it's spelled"
+# url = "https://github.com/sethrylan/readis"
+
+[[params.projects]]
+title = "boop"
+description = "Yet another HTTP test tool"
+url = "https://github.com/sethrylan/boop"

@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 {{- $defaultColor := .Site.Params.defaultColor | default "auto" -}}
 
+{{ $styles := resources.Get "style.css" | minify }}
+
+<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+
+
 {{/* allow website developer to enforce default dark mode */}}
 {{- if eq $defaultColor "dark" -}}
 <html lang="{{ .Site.LanguageCode }}" class="dark">
@@ -17,22 +22,35 @@
     {{- partial "header.html" . -}}
     <div class="wrapper">
         {{ partial "bio" . }}
-        <main aria-label="Content">
-            <h3 class="posts-item-note" aria-label="Recent Posts">{{ T "home.recent_posts" }}</h3>
-            {{/* Show last 5 posts in reverse date order */}}
-            {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
-            {{ $posts := $pagesToShow.ByDate.Reverse }}
-            {{ range first 5 $posts }}
-            {{ partial "postCard" . }}
-            {{ end }}
-            {{ if gt (len $posts) 5 }}
-            <p>
-                {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
-                <a href="{{ $firstSection.Permalink }}">{{ T "home.see_all_posts" }}</a>
+        <div class="two-column-layout">
+            <main aria-label="Content" class="column left-column">
+                <h3 class="posts-item-note" aria-label="Recent Posts">recent</h3>
+                {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
+                {{ $posts := $pagesToShow.ByDate.Reverse }}
+                {{ range first 9 $posts }}
+                {{ partial "postCard" . }}
                 {{ end }}
-            </p>
-            {{ end }}
-        </main>
+                {{ if gt (len $posts) 9 }}
+                <p>
+                    {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
+                    <a href="{{ $firstSection.Permalink }}">{{ T "home.see_all_posts" }}</a>
+                    {{ end }}
+                </p>
+                {{ end }}
+            </main>
+            <div class="column right-column">
+                <h3 class="posts-item-note" aria-label="Projects">projects</h3>
+                <!-- You can list your projects here -->
+                {{ range .Site.Params.projects }}
+                <div class="project-card">
+                    <h4 class="project-title">
+                        <a href="{{ .url }}">{{ .title }}</a>
+                    </h4>
+                    <p class="project-description">{{ .description }}</p>
+                </div>
+                {{ end }}
+            </div>
+        </div>
     </div>
     {{- partial "footer.html" . -}}
     {{- partial "scriptsBodyEnd.html" . -}}

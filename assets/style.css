@@ -1,0 +1,40 @@
+.two-column-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+}
+
+.column {
+  flex: 1;
+  min-width: 150px;
+}
+
+.left-column {
+  flex: 2;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.project-card {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.project-title {
+  margin-bottom: -0.7rem;
+}
+
+.project-description {
+  font-size: 0.8rem;
+  color: var(--text-secondary-color);
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .two-column-layout {
+    flex-direction: column;
+  }
+}
