@@ -100,7 +100,6 @@ url = "mailto:seth@sethrylan.org"
 name = "rss"
 url = "/index.xml"
 
-
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
