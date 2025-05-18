@@ -21,13 +21,3 @@ author:
 navigation:
   - text:    Home
     url:     /index.html
-projects:
-  - title: An Educated Guess
-    url:   /bayesian
-    text:  Calibrated Probability Assessment   # Redirect to gh-pages branch of sethrylan.github.com/bayesian repo
-  - title: Something Old, Something New
-    url:   /2013/12/15/something-old-something-new.html
-    text:  Age of Buildings in Charleston, South Carolina
-  - title: SLO Burn
-    url:   /slo-burn
-    text:  Multi-window SLO Burn Rate Alerting
