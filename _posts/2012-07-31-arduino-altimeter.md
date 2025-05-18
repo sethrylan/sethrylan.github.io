@@ -32,9 +32,59 @@ After connecting to a 4XAA (6VDC) battery source, we can mount this to the Easy 
 Once you have your data, you need to convert your adjusted pressure readings into altitude. The bmp085 gives you Pascals; after converting to millibar (or hPa) one can use the equation
 
 <div>
-\[
-h_{alt}=\left( 1 - \left( \dfrac {p_{sta}} {p_{sealevel}}\right) ^{0.190284}\right) \times 145366.45
-\]
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <msub>
+    <mi>h</mi>
+    <mrow data-mjx-texclass="ORD">
+      <mi>a</mi>
+      <mi>l</mi>
+      <mi>t</mi>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mrow data-mjx-texclass="INNER">
+    <mo data-mjx-texclass="OPEN">(</mo>
+    <mn>1</mn>
+    <mo>&#x2212;</mo>
+    <msup>
+      <mrow data-mjx-texclass="INNER">
+        <mo data-mjx-texclass="OPEN">(</mo>
+        <mstyle displaystyle="true" scriptlevel="0">
+          <mfrac>
+            <msub>
+              <mi>p</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mi>s</mi>
+                <mi>t</mi>
+                <mi>a</mi>
+              </mrow>
+            </msub>
+            <msub>
+              <mi>p</mi>
+              <mrow data-mjx-texclass="ORD">
+                <mi>s</mi>
+                <mi>e</mi>
+                <mi>a</mi>
+                <mi>l</mi>
+                <mi>e</mi>
+                <mi>v</mi>
+                <mi>e</mi>
+                <mi>l</mi>
+              </mrow>
+            </msub>
+          </mfrac>
+        </mstyle>
+        <mo data-mjx-texclass="CLOSE">)</mo>
+      </mrow>
+      <mrow data-mjx-texclass="ORD">
+        <mn>0.190284</mn>
+      </mrow>
+    </msup>
+    <mo data-mjx-texclass="CLOSE">)</mo>
+  </mrow>
+  <mo>&#xD7;</mo>
+  <mn>145366.45</mn>
+</math>
 </div>
 
 where:
@@ -47,10 +97,6 @@ This is a more accurate version of the common heuristic that pressure reduces by
 <p class="center">
   <a class="fancybox" href="/images/2012-07/Screenshot-from-2012-07-30-204153.png"><img src="/images/2012-07/Screenshot-from-2012-07-30-204153.png" width="40%"/></a>
 </p>
-
-<script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
 
 ## Arduino Code ##
 

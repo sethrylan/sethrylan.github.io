@@ -61,15 +61,102 @@ Data-ink ratio = $\frac{data\ ink}{total\ ink}$
 ##### On Tools
 Typing skill and comprehension are independent. Concurrent tasking does not affect typing much.[^salthouse]
 
-$$
-\require{AMScd}
-\begin{CD}
-CMF @>{smooth}>> CDF;\\
-@AA{\sum}A @A{\int_0^x}AA \\
-PMF @<{bin}<< PDF;
-\end{CD}
-$$
-[^distributions]
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mtable rowspacing="5pt" columnspacing="5pt" displaystyle="true">
+    <mtr>
+      <mtd>
+        <mi>C</mi>
+        <mi>M</mi>
+        <mi>F</mi>
+        <mpadded height="8.5pt" depth="2pt" />
+      </mtd>
+      <mtd>
+        <mover>
+          <mo minsize="2.75em">&#x2192;</mo>
+          <mpadded width="+0.611em" lspace="0.333em" voffset=".1em">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>s</mi>
+              <mi>m</mi>
+              <mi>o</mi>
+              <mi>o</mi>
+              <mi>t</mi>
+              <mi>h</mi>
+            </mrow>
+          </mpadded>
+        </mover>
+      </mtd>
+      <mtd>
+        <mi>C</mi>
+        <mi>D</mi>
+        <mi>F</mi>
+        <mo>;</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mrow>
+          <mo lspace="0" rspace="0" symmetric="true" minsize="1.75em">&#x2191;</mo>
+          <mstyle displaystyle="false" scriptlevel="1">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mpadded width="0">
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mo>&#x2211;<!-- ∑ --></mo>
+                </mrow>
+              </mpadded>
+            </mrow>
+          </mstyle>
+        </mrow>
+      </mtd>
+      <mtd />
+      <mtd>
+        <mrow>
+          <mstyle displaystyle="false" scriptlevel="1">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mpadded width="0" lspace="-1width">
+                <mrow class="MJX-TeXAtom-ORD">
+                  <msubsup>
+                    <mo>&#x222B;<!-- ∫ --></mo>
+                    <mn>0</mn>
+                    <mi>x</mi>
+                  </msubsup>
+                </mrow>
+              </mpadded>
+            </mrow>
+          </mstyle>
+          <mo lspace="0" rspace="0" symmetric="true" minsize="1.75em">&#x2191;</mo>
+        </mrow>
+      </mtd>
+      <mtd />
+    </mtr>
+    <mtr>
+      <mtd>
+        <mi>P</mi>
+        <mi>M</mi>
+        <mi>F</mi>
+        <mpadded height="8.5pt" depth="2pt" />
+      </mtd>
+      <mtd>
+        <mover>
+          <mo minsize="2.75em">&#x2190;</mo>
+          <mpadded width="+0.611em" lspace="0.333em" voffset=".1em">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>b</mi>
+              <mi>i</mi>
+              <mi>n</mi>
+            </mrow>
+          </mpadded>
+        </mover>
+      </mtd>
+      <mtd>
+        <mi>P</mi>
+        <mi>D</mi>
+        <mi>F</mi>
+        <mo>;</mo>
+      </mtd>
+    </mtr>
+  </mtable>
+</math>[^distributions]
 
 > A long list is no list. [^bobbell]
 
@@ -115,15 +202,3 @@ Even if a protocol seems great on paper, it may not be used for lots of reasons.
 [^bonferroni]: Bonferroni’s Principle: ["Who searches a lot, finds a lot."](http://rationalwiki.org/wiki/Bonferroni%27s_principle)
 [^distributions]: [Think Stats](http://amzn.to/2wRBFC0), chapter 6.
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-
-<script type="text/javascript"
-    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
