@@ -41,13 +41,6 @@ header > h3 {
   color: #494949; 
 }
 
-/* Sidebar nav */
-.sidebar-nav {
-  padding-left: 0;
-  list-style: none;
-  font-size-adjust: .5;
-}
-
 .sidebar {
   text-align: left;
   padding: 4rem 2rem;
