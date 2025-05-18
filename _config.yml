@@ -7,7 +7,7 @@ lsi:         true
 highlighter: rouge
 permalink:   date
 markdown:    kramdown
-exclude: ["readme.md", "README.md"]
+exclude: ["readme.md", "README.md", "vendor"]
 version: 2.0.1
 plugins: [jekyll-feed, jekyll-sitemap]
 feed:
