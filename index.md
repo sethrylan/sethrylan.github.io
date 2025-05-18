@@ -3,6 +3,17 @@ layout: default
 title: Typing, Fast and Slow
 ---
 
+
+<div id="page-content">
+  <nav id="header">
+    <a href="/"><i class="fa fa-github fa-2"></i>
+    <ul>
+      <li><a href="/posts">posts</a></li>
+    </ul>
+  </nav>
+</div>
+
+
 <div class="center">
 <img src="/images/beachy.jpg">
 <p>
