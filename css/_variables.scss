@@ -1,0 +1,29 @@
+/* fonts (Mamuso uses Inter & IBM Plex Mono) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap');
+
+:root {
+  /* type */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* colour scale (dark first, flips to light) */
+  --hue: 208;
+  --bg:        hsl(var(--hue) 15% 10%);
+  --fg:        hsl(var(--hue) 15% 88%);
+  --accent:    hsl(var(--hue) 100% 65%);
+  --muted:     hsl(var(--hue) 10% 55%);
+  --border:    hsl(var(--hue) 10% 25%);
+
+  /* layout */
+  --max-w: 48rem;
+  --gutter: clamp(1rem, 2vw, 1.75rem);
+  --radius: .5rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg:     hsl(var(--hue) 80% 98%);
+    --fg:     hsl(var(--hue) 5% 12%);
+    --border: hsl(var(--hue) 15% 85%);
+  }
+}

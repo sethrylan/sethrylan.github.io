@@ -1,0 +1,24 @@
+/* two‑column “rail” inspired by mamuso.dev’s masonry lists */
+.container{
+  max-width:var(--max-w);
+  margin-inline:auto;
+  padding-inline:var(--gutter);
+  display:grid;
+  grid-template-columns:1fr;
+  gap:3rem;
+}
+
+@media (min-width:42rem){
+  .container{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+/* sticky header top‑left (nav stays visible) */
+.site-header{
+  display:flex;flex-direction:column;gap:.25rem;
+  font-weight:600;font-size:1.1rem;
+}
+
+.site-header nav{display:flex;gap:1.25rem}
+.site-header a:hover{color:var(--accent)}

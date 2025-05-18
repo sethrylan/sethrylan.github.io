@@ -1,0 +1,6 @@
+/* a slim modern reset */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:none}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-sans);line-height:1.6}
+img,svg{display:block;max-width:100%;height:auto}
+a{text-decoration:none;color:inherit}
